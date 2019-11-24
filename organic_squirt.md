@@ -163,8 +163,8 @@ chance of hitting any lured cog with their squirt gags.
 
 ### P0a
 
-**1 organic Storm Cloud**, **1 non-organic Storm Cloud**, and **2 non-organic
-hoses** takes out an **unlured level 10 v2.0** cog.
+**2 non-organic hoses**, **1 non-organic Storm Cloud**, and **1 organic Storm
+Cloud** takes out an **unlured level 10 v2.0** cog.
 
 #### The math
 
@@ -188,8 +188,8 @@ dropless, or just don&rsquo;t have any Safes left).
 
 ### P0b
 
-**1 organic Storm Cloud**, **1 non-organic Storm Cloud**, **1 non-organic
-hose**, and **1 organic Seltzer Bottle** takes out an **unlured level 10 v2.0**
+**1 organic Seltzer Bottle**, **1 non-organic hose**, **1 non-organic Storm
+Cloud**, and **1 organic Storm Cloud** takes out an **unlured level 10 v2.0**
 cog.
 
 #### The math
@@ -214,7 +214,7 @@ apply.
 
 ### P1
 
-**1 organic Storm Cloud** and **1 non-organic Storm Cloud** takes out an
+**1 non-organic Storm Cloud** and **1 organic Storm Cloud** takes out an
 **unlured level 12** cog.
 
 #### The math
@@ -235,7 +235,7 @@ doesn&rsquo;t require the cog to be lured.
 
 ### P2
 
-**1 organic Storm Cloud** and **1 non-organic Fire Hose** takes out a **lured
+**1 non-organic Fire Hose** and **1 organic Storm Cloud** takes out a **lured
 level 12** cog.
 
 #### The math
@@ -291,7 +291,7 @@ as well.
 
 ### P4
 
-**1 organic Fire Hose** and **2 non-organic Fire Hoses** takes out a **lured
+**2 non-organic Fire Hoses** and **1 organic Fire Hose** takes out a **lured
 level 11** cog.
 
 #### The math
@@ -332,7 +332,7 @@ coordination/teamwork.
 
 ### P6
 
-**1 organic Fire Hose** and **2 non-organic Fire Hoses** takes out an **unlured
+**2 non-organic Fire Hoses** and **1 organic Fire Hose** takes out an **unlured
 level 9** cog.
 
 #### The math
@@ -374,7 +374,7 @@ quite useful when one or more toon(s) are throwless.
 
 ### P8
 
-**1 organic Seltzer Bottle** and **2 non-organic Seltzer Bottles** takes out a
+**2 non-organic Seltzer Bottles** and **1 organic Seltzer Bottle** takes out a
 **lured level 9** cog.
 
 #### The math
