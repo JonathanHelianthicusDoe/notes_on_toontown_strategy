@@ -37,7 +37,18 @@ straightforward, and involve at least one gag track that isn&rsquo;t squirt.
 &ldquo;Situational&rdquo; strategies are not quite so straightforward, and are
 situational in the sense that they generally span multiple rounds (thus only
 making sense within certain cog fights, not just against certain individual
-cogs) and/or require special preparation.
+cogs) and/or require special preparation. Within each of the three kinds,
+strategies are not in order of &ldquo;usefulness&rdquo; or anything like that,
+but are merely ordered by the following, in descending order of priority:
+
+1. Strategies that involve one or more v2.0 cogs are ordered first;
+2. Strategies are ordered by the highest level of cog that is involved,
+   descending;
+3. Strategies that do not involve lure are ordered first;
+4. Strategies that involve fewer organic squirt gags are ordered first.
+
+Tie-breaking after this is arbitrary. This ordering is supposed to reflect
+something like (very roughly) &ldquo;higher raw gag damage comes first&rdquo;.
 
 ## Preliminary
 
@@ -150,20 +161,56 @@ chance of hitting any lured cog with their squirt gags.
 
 ## Pure strategies
 
-### P0
+### P0a
 
-**1 organic Storm Cloud** and **1 non-organic Fire Hose** takes out a **lured
-level 12** cog.
+**1 organic Storm Cloud**, **1 non-organic Storm Cloud**, and **2 non-organic
+hoses** takes out an **unlured level 10 v2.0** cog.
 
 #### The math
 
 ```python
-  88 + 30 + ceil((88 + 30) / 5) + ceil((88 + 30) / 2)
-= 118     + ceil(118       / 5) + ceil(118       / 2)
-= 118     + ceil(23.6)          + ceil(59)
-= 118     + 24                  + 59
-= 201
+# First shell
+  30 + 30 + 80
+= 140
+
+# Second shell
+  88 + ceil((30 + 30 + 80 + 88) / 5)
+= 88 + ceil(228                 / 5)
+= 88 + ceil(45.6)
+= 88 + 46
+= 134
 ```
+
+#### When
+
+In a lureless context where you have 2 or more dropless toons (actually
+dropless, or just don&rsquo;t have any Safes left).
+
+### P0b
+
+**1 organic Storm Cloud**, **1 non-organic Storm Cloud**, **1 non-organic
+hose**, and **1 organic Seltzer Bottle** takes out an **unlured level 10 v2.0**
+cog.
+
+#### The math
+
+```python
+# First shell
+  23 + 30 + 80
+= 133
+
+# Second shell
+  88 + ceil((23 + 30 + 80 + 88) / 5)
+= 88 + ceil(221                 / 5)
+= 88 + ceil(44.2)
+= 88 + 45
+= 133
+```
+
+#### When
+
+This is just P0a, but with two organic squirt gags required. The same comments
+apply.
 
 ### P1
 
@@ -188,6 +235,62 @@ doesn&rsquo;t require the cog to be lured.
 
 ### P2
 
+**1 organic Storm Cloud** and **1 non-organic Fire Hose** takes out a **lured
+level 12** cog.
+
+#### The math
+
+```python
+  88 + 30 + ceil((88 + 30) / 5) + ceil((88 + 30) / 2)
+= 118     + ceil(118       / 5) + ceil(118       / 2)
+= 118     + ceil(23.6)          + ceil(59)
+= 118     + 24                  + 59
+= 201
+```
+
+### P3a
+
+**4 organic Fire Hoses** takes out an **unlured level 11** cog.
+
+#### The math
+
+```python
+  33 * 4 + ceil(33 * 4 / 5)
+= 132    + ceil(132    / 5)
+= 132    + ceil(26.4)
+= 132    + 27
+= 159
+```
+
+#### When
+
+Despite being a pure strategy, this one is pretty highly situational: it
+requires that all 4 toons have organic squirt, and is a hyper-conservative
+strategy that is mostly useful in situations where gags are scarce. That being
+said, in these situations it is incredibly powerful, so it deserves a place in
+this document.
+
+### P3b
+
+**4 organic Seltzer Bottles** takes out a **lured level 11** cog.
+
+#### The math
+
+```python
+  23 * 4 + ceil(23 * 4 / 5) + ceil(23 * 4 / 2)
+= 92     + ceil(92     / 5) + ceil(92     / 2)
+= 92     + ceil(18.4)       + ceil(46)
+= 92     + 19               + 46
+= 157
+```
+
+#### When
+
+This is the lure version of P3a, so the comments that apply to P3a apply here
+as well.
+
+### P4
+
 **1 organic Fire Hose** and **2 non-organic Fire Hoses** takes out a **lured
 level 11** cog.
 
@@ -208,48 +311,7 @@ anywhere from 7 to 14 more damage than a Fire Hose, albeit less accurately),
 although obviously it is also quite useful when one or more toon(s) are
 throwless.
 
-### P3a
-
-**4 organic Seltzer Bottles** takes out a **lured level 11** cog.
-
-#### The math
-
-```python
-  23 * 4 + ceil(23 * 4 / 5) + ceil(23 * 4 / 2)
-= 92     + ceil(92     / 5) + ceil(92     / 2)
-= 92     + ceil(18.4)       + ceil(46)
-= 92     + 19               + 46
-= 157
-```
-
-#### When
-
-Despite being a pure strategy, this one is pretty highly situational: it
-requires that all 4 toons have organic squirt, and is a hyper-conservative
-strategy that is mostly useful in situations where gags are scarce. That being
-said, in these situations it is incredibly powerful, so it deserves a place in
-this document.
-
-### P3b
-
-**4 organic Fire Hoses** takes out an **unlured level 11** cog.
-
-#### The math
-
-```python
-  33 * 4 + ceil(33 * 4 / 5)
-= 132    + ceil(132    / 5)
-= 132    + ceil(26.4)
-= 132    + 27
-= 159
-```
-
-#### When
-
-This is the lureless version of P3a, so the comments that apply to P3a apply
-here as well.
-
-### P4
+### P5
 
 **1 organic Storm Cloud** takes out a **lured level 10** cog.
 
@@ -268,7 +330,7 @@ This is what people usually think of when they think of organic squirt, because
 it is simple, effective, and &mdash; most importantly &mdash; requires no
 coordination/teamwork.
 
-### P5
+### P6
 
 **1 organic Fire Hose** and **2 non-organic Fire Hoses** takes out an **unlured
 level 9** cog.
@@ -285,12 +347,12 @@ level 9** cog.
 
 #### When
 
-This strategy is similar to P2, as the main purpose of this strategy is to
+This strategy is similar to P4, as the main purpose of this strategy is to
 conserve a single Cream Pie, and it is also quite useful when one or more
 toon(s) are throwless. But this strategy differs in that it is mostly *only
 useful in a lureless context*.
 
-### P6
+### P7
 
 **2 organic Fire Hoses** takes out a **lured level 9** cog.
 
@@ -306,11 +368,11 @@ useful in a lureless context*.
 
 #### When
 
-This strategy is similar to P2, as the main purpose of this strategy is to
+This strategy is similar to P4, as the main purpose of this strategy is to
 conserve a single Cream Pie, and it is also quite useful when one or more
 toon(s) are throwless.
 
-### P7
+### P8
 
 **1 organic Seltzer Bottle** and **2 non-organic Seltzer Bottles** takes out a
 **lured level 9** cog.
