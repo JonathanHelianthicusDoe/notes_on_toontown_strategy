@@ -209,7 +209,7 @@ cog.
 
 #### When
 
-This is just P0a, but with two organic squirt gags required. The same comments
+This is just P0a, but with 2 organic squirt gags required. The same comments
 apply.
 
 ### P1
@@ -308,7 +308,7 @@ level 11** cog.
 
 The main purpose of this strategy is to conserve a single Cream Pie (which does
 anywhere from 7 to 14 more damage than a Fire Hose, albeit less accurately),
-although obviously it is also quite useful when one or more toon(s) are
+although obviously it is also quite useful when 1 or more toon(s) are
 throwless. If running low on Fruit Pies, this can even save 2 or 3 Cream Pies.
 
 ### P5
@@ -349,8 +349,8 @@ level 9** cog.
 
 This strategy is similar to P4, as the main purpose of this strategy is to
 conserve a single Cream Pie (possibly more if running low on Fruit Pies), and
-it is also quite useful when one or more toon(s) are throwless. But this
-strategy differs in that it is mostly *only useful in a lureless context*.
+it is also quite useful when 1 or more toon(s) are throwless. But this strategy
+differs in that it is mostly *only useful in a lureless context*.
 
 ### P7
 
@@ -370,7 +370,7 @@ strategy differs in that it is mostly *only useful in a lureless context*.
 
 This strategy is similar to P4, as the main purpose of this strategy is to
 conserve a single Cream Pie (or 2 if running low on Fruit Pies), and it is also
-quite useful when one or more toon(s) are throwless.
+quite useful when 1 or more toon(s) are throwless.
 
 ### P8
 
@@ -392,5 +392,5 @@ quite useful when one or more toon(s) are throwless.
 This is a kind of hyper-conservative strategy that is mostly useful in
 situations where gags are scarce. Effectively, this strategy can save you up to
 3 Fruit Pies by replacing them with Seltzer Bottles, which do anywhere from 4
-to 8 less damage (albeit more accurately). Also obviously useful with one or
-more throwless toon(s).
+to 8 less damage (albeit more accurately). Also obviously useful with 1 or more
+throwless toon(s).
