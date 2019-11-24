@@ -9,27 +9,25 @@ trust to properly stun for the lure). Trap and drop are also fairly useful and
 are occasionally seen, but their usefulness is marginal within
 &rdquo;normal&ldquo; play; most organic trap users that I have met say that
 they mostly just wanted their railroad to one-shot level 12s. Organic toonup is
-vastly underpowered in normal play, and is thus **exceedingly** rare.
+vastly underpowered in normal play, and is thus *exceedingly* rare.
 
 These notes focus on the (in my opinion) severely underestimated underdog of
-the bunch: organic squirt. No attempt is here made to convince the reader to
-use organic squirt, and your mileage may vary wildly depending on which gag
-tracks you have access to, who you play with, and what cogs in the game you
-fight the most. Instead, these are notes (maybe even a kind of guide) based on
-**my personal experience** (with all the associated arithmetic included, of
-course) using organic squirt on soundless toons (with variously 1, 3, 4, 5, or
-6 gag tracks on each toon). This is not an exhaustive list of every possible
-way of defeating any given level of cog using at least one organic squirt gag;
-this is a practical guide that does deal with discrete strategies, but only
-ones that **make practical sense** within playstyles that I have personally
-encountered. Plenty of possibly viable strategies are indeed **intentionally
-omitted** here.
+the bunch: organic squirt. No attempt is here made (other than in the
+preliminary) to convince the reader to use organic squirt, and your mileage may
+vary wildly depending on which gag tracks you have access to, who you play
+with, and what cogs in the game you fight the most. Instead, these are notes
+(maybe even a kind of guide) based on *my personal experience* (with all the
+associated arithmetic included, of course) using organic squirt on soundless
+toons (with variously 1, 3, 4, 5, or 6 gag tracks on each toon). This is not an
+exhaustive list of every possible way of defeating any given level of cog using
+at least one organic squirt gag; this is a practical guide that does deal with
+discrete strategies, but only ones that *make practical sense* within
+playstyles that I have personally encountered. Plenty of possibly viable
+strategies are indeed *intentionally omitted* here.
 
 These notes are split into two parts: a short preliminary/introduction,
 followed by a collection of notes on strategies that can be used with organic
-squirt. If you already feel pretty comfortable with the game&rsquo;s mechanics
-and the jargon that toons tend to use surrounding said mechanics, you can
-probably skip the preliminary.
+squirt.
 
 The strategies covered here are roughly divided up into three kinds: pure,
 mixed, and situational. &ldquo;Pure&rdquo; strategies are straightforward and
@@ -42,6 +40,95 @@ making sense within certain cog fights, not just against certain individual
 cogs) and/or require special preparation.
 
 ## Preliminary
+
+### Why organic squirt?
+
+It is common for people to assume that organic squirt is useless; after all,
+squirt gags do less damage per-gag than, say, throw gags (and drop gags, and
+trap gags), and organic status gives extra damage per-gag as a multiple of the
+gag&rsquo;s base damage. So, naturally, it is assumed that organic squirt is
+plain old inferior to the other option(s).
+
+This is a misunderstanding based on an (extremely) crude evaluation of the
+value of gags themselves. This misunderstanding is, however, entirely expected
+given that:
+
+1. *Most* cog facilities are not that lengthy (in terms of something like the
+   sum of all cogs&rsquo; raw HP values), so in &ldquo;normal&rdquo; play, you
+   can simply sound-spam your way through all, or almost all, of the facility.
+   Once a facility is complete, toons are free to restock their gags at any gag
+   shoppe.
+2. Although Toontown (in general: including not just TTO, but also TTR and
+   other &ldquo;private servers&rdquo; that are ultimately derivatives of TTO)
+   is a game *designed to force teamwork*, due to the previous point, players
+   are *de facto* only incentivised to go as far as memorizing a few
+   &ldquo;combos&rdquo; that require little (if any) team coordination. More
+   &ldquo;advanced&rdquo; players only go slightly further than this (with
+   cooperation strategies like e.g. the avoidance of &ldquo;crossing&rdquo;),
+   ultimately also wanting the same thing: a small, fixed set of gag combos
+   (ideally as simple as possible, like a single-gag combo, a.k.a. one-shot
+   combo) that can be easily memorized by all toons in common, each one of
+   which otherwise *requires no teamwork* other than having a shared set of
+   memorized combos.
+3. Toons cannot (again, in &ldquo;normal&rdquo; play) go sad.
+
+If the above three points are all collectively a given as far as you&rsquo;re
+concerned, then this document is probably not for you. If all three points
+above are true 100% of the time, then you are better off with either organic
+sound or organic throw, as those are the only two viable options (in terms of
+raw game-mechanical advantage, with the slight exception of an organic Storm
+Cloud being able to one-shot a lured level 10 cog). That being said, there are
+two things that make the above three assumptions questionable:
+
+1. The existence of Bossbot HQ, specifically Back Nines and CEOs. Depending on
+   how lucky you get with the golf minigame, point no. 1 above may or may not
+   actually apply. And in CEOs, there is simply no chance (other than the
+   spending of SOS cards and/or unites) of getting gag restocks. This point
+   also applies to a lesser extent to some shorter facilities like Middle
+   Sixes, DA Office Ds, Bullion Mints, and CFOs.
+2. The existence of alternate (not &ldquo;normal&rdquo;) styles of play, which
+   are ultimately optional (as is any style of play), and sometimes require
+   self-imposed restrictions beyond what the game provides as-is. This includes
+   (but is not limited to) soundless toons, semi toons, and uber toons (and
+   toons that are any combination of one or more of the former).
+
+If we take these things into account (and thus take the original three
+assumptions into question), we arrive at a more *general* version of Toontown,
+in which the reasoning that organic squirt is obviously useless no longer
+applies. Instead, when reasoning about what organic gag track to choose, our
+reasoning has to look more like the following rough sketch:
+
+We want to *minimize* the amount of &ldquo;power&rdquo; (loosely speaking, the
+somewhat situational power-to-defeat-cogs that takes into account raw gag
+damage as well as other things like ability to produce &ldquo;combo
+damage&rdquo; (yellow damage) and &ldquo;knockback damage&rdquo; (orange
+damage), &amp;c.) that is used to defeat any given cog (or set of cogs). In
+this way, we *maximize* how much power we conserve overall that can be used to
+defeat future cog(s).
+
+If it seems like this reasoning still views organic squirt as useless (or at
+least, underpowered), then you are forgetting that Toontown puts an absolute
+maximum on the number of gags that you can carry of any particular variety
+(e.g. a hard maximum of 3 Birthday Cakes). Because of this, it will (at least,
+in many cases) make sense to empower gags that are less powerful per-gag, thus
+having more gags in one&rsquo;s inventory that exceed a particular power
+threshold. This is as opposed to empowering gags that are *more* powerful
+per-gag; doing this will increase the number of gags in one&rsquo;s inventory
+that exceed a particular power threshold, but that threshold *will be
+considerably higher, and as a result the absolute number of gags that exceed it
+will be fewer anyways*. This can actually work *against* the criteria in the
+previous paragraph, and is the (somewhat subtle) reasoning that vindicates the
+use of seemingly underpowered things like organic squirt.
+
+All of this being said, it is worth reiterating that I in no way claim that
+organic squirt is the only viable option for an organic gag track in all
+situations, because that claim is very much false. What I do claim is that in
+many situations and in many gag builds, organic squirt is a good choice and/or
+the best choice. I also claim that in my personal experience, organic squirt
+has served me very well across a variety of different toons with different gag
+tracks.
+
+### Basic squirt knowledge
 
 The damage values of squirt gags (and their organic versions) are listed below:
 
