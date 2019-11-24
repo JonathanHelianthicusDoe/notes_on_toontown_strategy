@@ -220,7 +220,7 @@ apply.
 #### The math
 
 ```python
-  88 + 80 + ceil((88 + 80) / 5)
+  80 + 88 + ceil((80 + 88) / 5)
 = 168     + ceil(168       / 5)
 = 168     + ceil(33.6)
 = 168     + 34
@@ -241,7 +241,7 @@ level 12** cog.
 #### The math
 
 ```python
-  88 + 30 + ceil((88 + 30) / 5) + ceil((88 + 30) / 2)
+  30 + 88 + ceil((30 + 88) / 5) + ceil((30 + 88) / 2)
 = 118     + ceil(118       / 5) + ceil(118       / 2)
 = 118     + ceil(23.6)          + ceil(59)
 = 118     + 24                  + 59
@@ -297,7 +297,7 @@ level 11** cog.
 #### The math
 
 ```python
-  33 + 30 + 30 + ceil((33 + 30 + 30) / 5) + ceil((33 + 30 + 30) / 2)
+  30 + 30 + 33 + ceil((30 + 30 + 33) / 5) + ceil((30 + 30 + 33) / 2)
 = 93           + ceil(93             / 5) + ceil(93             / 2)
 = 93           + ceil(18.6)               + ceil(46.5)
 = 93           + 19                       + 47
@@ -309,7 +309,7 @@ level 11** cog.
 The main purpose of this strategy is to conserve a single Cream Pie (which does
 anywhere from 7 to 14 more damage than a Fire Hose, albeit less accurately),
 although obviously it is also quite useful when one or more toon(s) are
-throwless.
+throwless. If running low on Fruit Pies, this can even save 2 or 3 Cream Pies.
 
 ### P5
 
@@ -338,7 +338,7 @@ level 9** cog.
 #### The math
 
 ```python
-  33 + 30 + 30 + ceil((33 + 30 + 30) / 5)
+  30 + 30 + 33 + ceil((30 + 30 + 33) / 5)
 = 93           + ceil(93             / 5)
 = 93           + ceil(18.6)
 = 93           + 19
@@ -348,9 +348,9 @@ level 9** cog.
 #### When
 
 This strategy is similar to P4, as the main purpose of this strategy is to
-conserve a single Cream Pie, and it is also quite useful when one or more
-toon(s) are throwless. But this strategy differs in that it is mostly *only
-useful in a lureless context*.
+conserve a single Cream Pie (possibly more if running low on Fruit Pies), and
+it is also quite useful when one or more toon(s) are throwless. But this
+strategy differs in that it is mostly *only useful in a lureless context*.
 
 ### P7
 
@@ -369,8 +369,8 @@ useful in a lureless context*.
 #### When
 
 This strategy is similar to P4, as the main purpose of this strategy is to
-conserve a single Cream Pie, and it is also quite useful when one or more
-toon(s) are throwless.
+conserve a single Cream Pie (or 2 if running low on Fruit Pies), and it is also
+quite useful when one or more toon(s) are throwless.
 
 ### P8
 
@@ -380,7 +380,7 @@ toon(s) are throwless.
 #### The math
 
 ```python
-  23 + 21 + 21 + ceil((23 + 21 + 21) / 5) + ceil((23 + 21 + 21) / 2)
+  21 + 21 + 23 + ceil((21 + 21 + 23) / 5) + ceil((21 + 21 + 23) / 2)
 = 65           + ceil(65             / 5) + ceil(65             / 2)
 = 65           + ceil(13)                 + ceil(32.5)
 = 65           + 13                       + 33
