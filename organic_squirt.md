@@ -89,20 +89,6 @@ percentage:
 * &#x1f9f2; : Requires lure.
 * &#x1f333; : Requires one or more organic gag(s) that are not squirt.
 * &#x1f35e; : Particularly commonly used (in my personal experience).
-* &#x2757; : Unconditionally optimal\*.
-
-\*&ldquo;Unconditionally optimal&rdquo; is only a *vaguely useful* distinction
-that is determined using [my gag combo
-generator](https://zz.nfshost.com/gag_combo_gen_web/index.html): if, given a
-fixed cog level, lured status, v2.0 status, number of gags, and number of
-organic gags, the combo shows up as the &ldquo;most optimal&rdquo; when sound,
-throw, squirt, and drop gags are all included, then it gets the
-&ldquo;unconditionally optimal&rdquo; distinction. Strategies without this
-distinction (including ones that involve trap and/or span multiple rounds and
-thus cannot have this distinction) can still be &ldquo;optimal&rdquo; and/or
-useful, but only &ldquo;conditionally&rdquo; so. Note that the gag combo
-generator does not take into account accuracy nor what gags you happen to have
-left on each toon in your team (among other things).
 
 ### Why organic squirt?
 
@@ -287,7 +273,7 @@ Like most non-situational strategies, this one is pretty general, but it tends
 to be more useful in lureless situations for the obvious reason that it
 doesn&rsquo;t require the cog to be lured.
 
-### P2 [100%] &#x1f30a; &#x1f9f2; &#x1f35e; &#x2757;
+### P2 [100%] &#x1f30a; &#x1f9f2; &#x1f35e;
 
 **1 non-organic Fire Hose** and **1 organic Storm Cloud** takes out a **lured
 level 12** cog.
@@ -365,7 +351,7 @@ anywhere from 7 to 14 more damage than a Fire Hose, albeit less accurately),
 although obviously it is also quite useful when 1 or more toon(s) are
 throwless. If running low on Fruit Pies, this can even save 2 or 3 Cream Pies.
 
-### P5 [100%] &#x1f30a; &#x1f9f2; &#x1f35e; &#x2757;
+### P5 [100%] &#x1f30a; &#x1f9f2; &#x1f35e;
 
 **1 organic Storm Cloud** takes out a **lured level 10** cog.
 
