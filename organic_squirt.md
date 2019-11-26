@@ -1,8 +1,8 @@
 # Notes on organic squirt
 
 TTR only allows for a single gag track to be organic, so one part of every
-toon&rsquo;s loadout (besides what gag tracks they actually have access to) is
-what track they choose to plant. Typically the choice is between sound and
+toon&rsquo;s loadout (besides which gag track(s) they actually have access to)
+is what track they choose to plant. Typically the choice is between sound and
 throw. Lure is a common choice for those training lure and for those who rely
 heavily on lure when playing with others they don&rsquo;t know (and thus cannot
 trust to properly stun for the lure). Trap and drop are also fairly useful and
@@ -12,8 +12,8 @@ they mostly just wanted their railroad to one-shot level 12s. Organic toonup is
 vastly underpowered in normal play, and is thus *exceedingly* rare.
 
 These notes focus on the (in my opinion) severely underestimated underdog of
-the bunch: organic squirt. No attempt is here made (other than in the
-preliminary) to convince the reader to use organic squirt, and your mileage may
+the bunch: organic squirt. The focus of this document is *not* to convince the
+reader to use organic squirt, and when using organic squirt your mileage may
 vary wildly depending on which gag tracks you have access to, who you play
 with, and what cogs in the game you fight the most. Instead, these are notes
 (maybe even a kind of guide) based on *my personal experience* (with all the
@@ -50,7 +50,59 @@ but are merely ordered by the following, in descending order of priority:
 Tie-breaking after this is arbitrary. This ordering is supposed to reflect
 something like (very roughly) &ldquo;higher raw gag damage comes first&rdquo;.
 
+## Table of contents
+
+* [Preliminary](#preliminary)
+    * [Key](#key)
+    * [Why organic squirt?](#why-organic-squirt)
+    * [Basic squirt knowledge](#basic-squirt-knowledge)
+* [Pure strategies](#pure-strategies)
+    * [P0a](#p0a)
+    * [P0b](#p0b)
+    * [P1](#p1)
+    * [P2](#p2)
+    * [P3a](#p3a)
+    * [P3b](#p3b)
+    * [P4](#p4)
+    * [P5](#p5)
+    * [P6](#p6)
+    * [P7](#p7)
+    * [P8](#p8)
+
 ## Preliminary
+
+### Key
+
+The percentage in square brackets to the right of each strategy name is the
+probability of every part of the strategy hitting (and thus defeating) the cog.
+This probability assumes that the lure has already hit (and thus effectively
+has 100% accuracy), unless the strategy involves trap, in which case it is
+assumed that the lure is as accurate as a non-organic Hypno Goggles
+(equivalently, non-organic $10 Bill, organic Blue Magnet, or organic $5 Bill).
+
+One or more of the following indicators appear to the right of the accuracy
+percentage:
+
+* &#x1f30a;, &#x1f30a;&#x1f30a;, &#x1f30a;&#x1f30a;&#x1f30a;,
+  &#x1f30a;&#x1f30a;&#x1f30a;&#x1f30a; : Requires 1, 2, 3, or 4 organic squirt
+  gags, respectively.
+* &#x1f9f2; : Requires lure.
+* &#x1f333; : Requires one or more organic gag(s) that are not squirt.
+* &#x1f35e; : Particularly commonly used (in my personal experience).
+* &#x2757; : Unconditionally optimal\*.
+
+\*&ldquo;Unconditionally optimal&rdquo; is only a *vaguely useful* distinction
+that is determined using [my gag combo
+generator](https://zz.nfshost.com/gag_combo_gen_web/index.html): if, given a
+fixed cog level, lured status, v2.0 status, number of gags, and number of
+organic gags, the combo shows up as the &ldquo;most optimal&rdquo; when sound,
+throw, squirt, and drop gags are all included, then it gets the
+&ldquo;unconditionally optimal&rdquo; distinction. Strategies without this
+distinction (including ones that involve trap and/or span multiple rounds and
+thus cannot have this distinction) can still be &ldquo;optimal&rdquo; and/or
+useful, but only &ldquo;conditionally&rdquo; so. Note that the gag combo
+generator does not take into account accuracy nor what gags you happen to have
+left on each toon in your team (among other things).
 
 ### Why organic squirt?
 
@@ -143,7 +195,7 @@ tracks.
 
 The damage values of squirt gags (and their organic versions) are listed below:
 
-| Level | Name             | Damage | Damage (Organic) |
+| Level | Name             | Damage | Damage (organic) |
 | ----- | ---------------- | ------ | ---------------- |
 | 1     | Squirting Flower | 4      | 5                |
 | 2     | Glass Of Water   | 8      | 9                |
@@ -157,11 +209,13 @@ Squirt gags are effectively as accurate as sound gags (slightly complicated by
 the fact that sound gags hit all cogs, and squirt gags hit one cog at a time
 with the exception of the Geyser). Toons with max squirt have a 95% chance of
 hitting any unlured cog with their squirt gags, and all toons have a 100%
-chance of hitting any lured cog with their squirt gags.
+chance of hitting any lured cog with their squirt gags. This is in contrast to
+throw gags, which are similar to squirt gags but have worse accuracy on unlured
+cogs whose level is 10 or higher (assuming max throw).
 
 ## Pure strategies
 
-### P0a
+### P0a [95%] &#x1f30a;
 
 **2 non-organic hoses**, **1 non-organic Storm Cloud**, and **1 organic Storm
 Cloud** takes out an **unlured level 10 v2.0** cog.
@@ -186,7 +240,7 @@ Cloud** takes out an **unlured level 10 v2.0** cog.
 In a lureless context where you have 2 or more dropless toons (actually
 dropless, or just don&rsquo;t have any Safes left).
 
-### P0b
+### P0b [95%] &#x1f30a;&#x1f30a;
 
 **1 organic Seltzer Bottle**, **1 non-organic hose**, **1 non-organic Storm
 Cloud**, and **1 organic Storm Cloud** takes out an **unlured level 10 v2.0**
@@ -212,7 +266,7 @@ cog.
 This is just P0a, but with 2 organic squirt gags required. The same comments
 apply.
 
-### P1
+### P1 [95%] &#x1f30a; &#x1f35e;
 
 **1 non-organic Storm Cloud** and **1 organic Storm Cloud** takes out an
 **unlured level 12** cog.
@@ -233,7 +287,7 @@ Like most non-situational strategies, this one is pretty general, but it tends
 to be more useful in lureless situations for the obvious reason that it
 doesn&rsquo;t require the cog to be lured.
 
-### P2
+### P2 [100%] &#x1f30a; &#x1f9f2; &#x1f35e; &#x2757;
 
 **1 non-organic Fire Hose** and **1 organic Storm Cloud** takes out a **lured
 level 12** cog.
@@ -248,7 +302,7 @@ level 12** cog.
 = 201
 ```
 
-### P3a
+### P3a [95%] &#x1f30a;&#x1f30a;&#x1f30a;&#x1f30a;
 
 **4 organic Fire Hoses** takes out an **unlured level 11** cog.
 
@@ -270,7 +324,7 @@ strategy that is mostly useful in situations where gags are scarce. That being
 said, in these situations it is incredibly powerful, so it deserves a place in
 this document.
 
-### P3b
+### P3b [100%] &#x1f30a;&#x1f30a;&#x1f30a;&#x1f30a; &#x1f9f2;
 
 **4 organic Seltzer Bottles** takes out a **lured level 11** cog.
 
@@ -289,7 +343,7 @@ this document.
 This is the lure version of P3a, so the comments that apply to P3a apply here
 as well.
 
-### P4
+### P4 [100%] &#x1f30a; &#x1f9f2; &#x1f35e;
 
 **2 non-organic Fire Hoses** and **1 organic Fire Hose** takes out a **lured
 level 11** cog.
@@ -311,7 +365,7 @@ anywhere from 7 to 14 more damage than a Fire Hose, albeit less accurately),
 although obviously it is also quite useful when 1 or more toon(s) are
 throwless. If running low on Fruit Pies, this can even save 2 or 3 Cream Pies.
 
-### P5
+### P5 [100%] &#x1f30a; &#x1f9f2; &#x1f35e; &#x2757;
 
 **1 organic Storm Cloud** takes out a **lured level 10** cog.
 
@@ -330,7 +384,7 @@ This is what people usually think of when they think of organic squirt, because
 it is simple, effective, and &mdash; most importantly &mdash; requires no
 coordination/teamwork.
 
-### P6
+### P6 [95%] &#x1f30a;
 
 **2 non-organic Fire Hoses** and **1 organic Fire Hose** takes out an **unlured
 level 9** cog.
@@ -352,7 +406,7 @@ conserve a single Cream Pie (possibly more if running low on Fruit Pies), and
 it is also quite useful when 1 or more toon(s) are throwless. But this strategy
 differs in that it is mostly *only useful in a lureless context*.
 
-### P7
+### P7 [100%] &#x1f30a;&#x1f30a; &#x1f9f2; &#x1f35e;
 
 **2 organic Fire Hoses** takes out a **lured level 9** cog.
 
@@ -372,7 +426,7 @@ This strategy is similar to P4, as the main purpose of this strategy is to
 conserve a single Cream Pie (or 2 if running low on Fruit Pies), and it is also
 quite useful when 1 or more toon(s) are throwless.
 
-### P8
+### P8 [100%] &#x1f30a; &#x1f9f2;
 
 **2 non-organic Seltzer Bottles** and **1 organic Seltzer Bottle** takes out a
 **lured level 9** cog.
