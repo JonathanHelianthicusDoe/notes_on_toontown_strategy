@@ -1,5 +1,8 @@
 # Notes on cog damage
 
+![CC BY-SA 4.0+](https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+"CC BY-SA 4.0+")
+
 One of the most neglected aspects of cog-fighting strategy in Toontown is
 taking into account the attacks that cogs have in their arsenals. Of course,
 this comes as no surprise, because in &ldquo;normal&rdquo; gameplay, cogs

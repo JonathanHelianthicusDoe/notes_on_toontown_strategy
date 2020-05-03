@@ -1,5 +1,8 @@
 # Notes on organic squirt
 
+![CC BY-SA 4.0+](https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+"CC BY-SA 4.0+")
+
 TTR only allows for a single gag track to be organic, so one part of every
 toon&rsquo;s loadout (besides which gag track(s) they actually have access to)
 is what track they choose to plant. Typically the choice is between sound and
