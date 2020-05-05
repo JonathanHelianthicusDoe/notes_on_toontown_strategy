@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
 """
+To the extent possible under law, all copyright and related or neighboring
+rights to this work have been waived. For more information, see
+<https://creativecommons.org/publicdomain/zero/1.0/>.
+
 Key
 ===
 
