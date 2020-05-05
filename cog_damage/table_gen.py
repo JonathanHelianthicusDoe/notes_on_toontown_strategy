@@ -18,7 +18,7 @@ atk: attack
 ty:  type
 """
 
-import json, pprint
+import html, json
 
 
 TABLE_HEADER = """\
@@ -131,6 +131,7 @@ for n, l in enumerate(all_toons_exp):
     )
 
     for (name, ty, lvl), d in l:
+        name = html.escape(name, quote=False)
         out += f"| {name} | {lvl} | {readable_type(ty)} | {d:0.3f} |\n"
 
     out += "\n"
@@ -145,6 +146,7 @@ for n, l in enumerate(all_toons_max):
     )
 
     for (name, ty, lvl), d in l:
+        name = html.escape(name, quote=False)
         out += f"| {name} | {lvl} | {readable_type(ty)} | {d:0.3f} |\n"
 
     out += "\n"
@@ -164,6 +166,7 @@ for n, l in enumerate(single_toon_exp):
     )
 
     for (name, ty, lvl), d in l:
+        name = html.escape(name, quote=False)
         out += f"| {name} | {lvl} | {readable_type(ty)} | {d:0.3f} |\n"
 
     out += "\n"
@@ -171,6 +174,7 @@ for n, l in enumerate(single_toon_exp):
 out += "### Maximum damage to given single toon\n\n" + TABLE_HEADER
 
 for (name, ty, lvl), d in single_toon_max:
+    name = html.escape(name, quote=False)
     out += f"| {name} | {lvl} | {readable_type(ty)} | {d:0.3f} |\n"
 
 print(out, end="")
