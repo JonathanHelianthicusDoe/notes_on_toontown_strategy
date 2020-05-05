@@ -10,7 +10,7 @@ throw. Lure is a common choice for those training lure and for those who rely
 heavily on lure when playing with others they don&rsquo;t know (and thus cannot
 trust to properly stun for the lure). Trap and drop are also fairly useful and
 are occasionally seen, but their usefulness is marginal within
-&rdquo;normal&ldquo; play; most organic trap users that I have met say that
+&ldquo;normal&rdquo; play; most organic trap users that I have met say that
 they mostly just wanted their railroad to one-shot level 12s. Organic toonup is
 vastly underpowered in normal play, and is thus *exceedingly* rare.
 

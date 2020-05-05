@@ -1070,6 +1070,41 @@
           "use": [15, 15, 15, 15, 15]
         }
       ]
+    },
+    {
+      "name": "Big Cheese",
+      "type": "boss",
+      "base_lv": 8,
+      "arsenal": [
+        {
+          "name": "Tee Off",
+          "single": true,
+          "dmg": [8, 11, 14, 17, 20],
+          "acc": [55, 65, 70, 75, 80],
+          "use": [50, 50, 50, 50, 50]
+        },
+        {
+          "name": "Cigar Smoke",
+          "single": true,
+          "dmg": [10, 12, 15, 18, 20],
+          "acc": [55, 65, 75, 85, 95],
+          "use": [20, 20, 20, 20, 20]
+        },
+        {
+          "name": "Flood the Market",
+          "single": true,
+          "dmg": [14, 16, 18, 20, 22],
+          "acc": [70, 75, 85, 90, 95],
+          "use": [10, 10, 10, 10, 10]
+        },
+        {
+          "name": "Song and Dance",
+          "single": true,
+          "dmg": [14, 15, 17, 19, 20],
+          "acc": [60, 65, 70, 75, 80],
+          "use": [20, 20, 20, 20, 20]
+        }
+      ]
     }
   ]
 }

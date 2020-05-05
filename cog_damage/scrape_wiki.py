@@ -5,6 +5,12 @@ To the extent possible under law, all copyright and related or neighboring
 rights to this work have been waived. For more information, see
 <https://creativecommons.org/publicdomain/zero/1.0/>.
 
+You can just scrape this data from the appropriate source code
+(SuitBattleGlobals.py) but I wasn't sure if the SuitBattleGlobals.py that I had
+would differ from the specifically TTR version found on the wikia (a.k.a. the
+best knowledge that we have of TTR's actual numbers, given that they are
+closed-source(!)).
+
 I just ran this script like this:
 
 ./scrape_wiki.py https://toontownrewritten.fandom.com/wiki/Cold_Caller \
