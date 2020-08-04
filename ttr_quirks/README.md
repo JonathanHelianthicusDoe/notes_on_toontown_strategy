@@ -215,6 +215,63 @@ prevent toons from placing ordinary trap gags down wherever they are.
 
 ## Addendum: bugs that could, possibly, be explained as &ldquo;fully intentional&rdquo; and thus not bugs at all
 
-## Squirt, throw, and sound gags sometimes miss lured cogs
+### Squirt, throw, and sound gags sometimes miss lured cogs
 
-## Two (or more) throw, squirt, or drop gags of the same track that are used in the same round on the same cog can differ in whether or not they miss
+This happens in cases where the squirt/throw/sound gag in question is one that
+targets all cogs, and some &mdash; but not all &mdash; cogs in the battle are
+lured. This one is probably(?) intentional, I suspect, but is nevertheless a
+violation of one of the rules that players learn very early on when it comes to
+lure gags. This has led many to speculate about whether or not it is possible
+for sound gags and/or Wedding Cake and/or Geyser to miss when *all* cogs are
+lured (spoiler: they cannot miss in that case&hellip; or [can
+they](https://en.wikipedia.org/wiki/Proprietary_software)?).
+
+The [main &ldquo;Toontown Resources&rdquo;
+document](https://github.com/QED1224/Toontown-Resources#equation-) suggests
+that there is something called `luredRatio` that is calculated based on the
+proportion of the cogs in the battle that are currently lured. One quirk of
+this `luredRatio` (at least, as presented in said document) is that it actually
+affects the accuracy of single-target throw and squirt gags that are targeting
+unlured cogs. For squirt, this isn&rsquo;t that big of a deal, since assuming
+max squirt, all squirt gags have maximum accuracy (95%) on all unlured cogs,
+regardless of cog level (although it can make a difference for toons with
+unmaxed squirt). But for throw, just *one* cog being lured in a row of 4 cogs
+will boost the accuracy of a throw gag targeting an unlured level 12 cog from
+80% (the usual value, assuming max throw) to maximum accuracy (95%). This is,
+needless to say, a bizarre mechanic, such that I doubt that it is really
+implemented this way in TTR&hellip; but [who
+knows](https://en.wikipedia.org/wiki/Proprietary_software)? Clearly, the intent
+of this `luredRatio` mechanic, as written, is to improve the accuracy of
+certain multi-target gags (particularly sound gags, but also Wedding Cake and
+Geyser) whenever some &mdash; but not all &mdash; of its targets are lured. Of
+course, for all sound gags, as well as for Geyser, this is mostly pointless,
+since (assuming max sound) they already have &mdash; at worst &mdash; maximum
+accuracy (95%). For Wedding Cake, as already mentioned for other throw gags,
+this can actually be a boon. But doesn&rsquo;t it feel weird for level 7 gags
+to have anything less than 95% accuracy anyways? They are, after all, a sort of
+disposable &ldquo;reward&rdquo;, like SOS cards, unites, and pink slips.
+
+The point of mentioning `luredRatio` here at all is that `luredRatio` would
+seem to be the justification for allowing squirt, throw, and sound gags to
+sometimes miss lured cogs: in these seemingly bizarre cases, sure, there is a
+non-zero chance of the gag(s) missing, but that doesn&rsquo;t mean that the one
+or more cog(s) being lured is *totally useless*; `luredRatio` ensures that
+these cog(s) being lured does at least increase accuracy! &hellip;Except that,
+as discussed, that&rsquo;s not really how `luredRatio` works anywhere other
+than in *theory*, due to accuracy being capped at 95%.
+
+### Two (or more) throw, squirt, or drop gags of the same track that are used in the same round on the same cog can differ in whether or not they miss
+
+This &ldquo;bug&rdquo; (again, likely not a &ldquo;bug&rdquo; <i>per se</i>,
+since it is likely intentional) is similar to and related to the one above.
+This can occur in the presence of Wedding Cakes, Geysers, and Toontanics,
+whenever at least one cog is not lured and at least one single-target gag of
+the same track (throw, squirt, or drop, respectively) is used in the same
+round. This is, similarly to the previously listed &ldquo;bug&rdquo;, a
+violation of one of the rules that players learn very early on when it comes to
+multiple gags of the same track targeting the same cog in the same round.
+However, it is likely intentional (or at least a simple byproduct of something
+intentional), given that lure gags work similarly. In the case of throw,
+squirt, and drop, however, it comes as more shocking because gags of these
+tracks are inherently single-target &mdash; the only exceptions being the level
+seven gags of said tracks.
