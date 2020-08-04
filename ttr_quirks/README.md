@@ -213,7 +213,9 @@ cogs to give extra accuracy to other gags (lure, throw, and drop in
 particular); however, they *do* behave like actual trap gags in that they
 prevent toons from placing ordinary trap gags down wherever they are.
 
-## Addendum: bugs that could, possibly, be explained as &ldquo;fully intentional&rdquo; and thus not bugs at all
+---
+
+## Addendum: bugs that could, possibly, be explained as &ldquo;fully intentional&rdquo; and thus not be bugs at all
 
 ### Squirt, throw, and sound gags sometimes miss lured cogs
 
