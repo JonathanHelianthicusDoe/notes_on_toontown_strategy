@@ -201,7 +201,7 @@ least, in the first round, if there are more rounds) of the fourth toon.
 ## SOS trap gags stick around longer than expected, preventing the use of ordinary trap gags
 
 This is a familiar bug for anyone who has used (or has been in a battle where
-someone else has used) and SOS trap card &mdash; regardless of its number of
+someone else has used) an SOS trap card &mdash; regardless of its number of
 stars. This bug has two components: a visual one, and a
 gameplay/game-mechanical one. The visual issue is that these SOS trap gags tend
 to visually stick around wherever they were placed, even after they have been
