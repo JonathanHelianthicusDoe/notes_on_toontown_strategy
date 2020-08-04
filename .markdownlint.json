@@ -1,6 +1,6 @@
 {
   "MD007": { "indent": 4 },
-  "MD013": { "line_length": 79 },
+  "MD013": { "line_length": 79, "headings": false },
   "MD024": { "allow_different_nesting": true },
   "MD026": { "punctuation": ".,:。，；：" },
   "MD029": { "style": "ordered" },
