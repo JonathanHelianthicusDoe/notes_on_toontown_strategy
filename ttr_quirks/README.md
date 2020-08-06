@@ -217,6 +217,32 @@ prevent toons from placing ordinary trap gags down wherever they are.
 
 ## Addendum: bugs that could, possibly, be explained as &ldquo;fully intentional&rdquo; and thus not be bugs at all
 
+### Two (or more) sound gags used in the same round can differ in whether or not they hit
+
+This sometimes happens in the presence of sound SOS cards. SOS cards that use
+gags are guaranteed to hit all of their targets, because they calculate their
+results differently than the corresponding ordinary gags. Ordinary sound gags,
+on the other hand, have 95% accuracy at best (and also 95% accuracy at worst,
+if we assume maxed sound), so it is possible for the SOS card sound gag(s) to
+hit while the ordinary sound gag(s) miss.
+
+This is a more odd behavior and is conceptually distinct from the similar
+&ldquo;bug&rdquo; listed further down, because in this case, only gags that
+target all cogs are involved. Therefore, it is more shocking that the gags can
+differ in whether or not they hit; they are of the same track, used in the same
+round, and have actually **identical** targets (not just **overlapping**
+targets). Furthermore, this particular behavior can no longer be explained away
+by analogy with lure gags: even with lure gags, two lure gags that have
+**identical** targets *never* differ in whether or not they hit. This is,
+however, still classified as &ldquo;possibly explained as &lsquo;fully
+intentional&rsquo;&rdquo; because internally, it is intentional that SOS card
+gags and ordinary gags have their
+[outcomes](https://en.wikipedia.org/wiki/Bernoulli_trial) calculated
+differently.
+
+Note that in principle, this can also occur due to the combination of one or
+more drop SOS cards with one or more Toontanics.
+
 ### Squirt, throw, and sound gags sometimes miss lured cogs
 
 This happens in cases where the squirt/throw/sound gag in question is one that
@@ -262,18 +288,18 @@ these cog(s) being lured does at least increase accuracy! &hellip;Except that,
 as discussed, that&rsquo;s not really how `luredRatio` works anywhere other
 than in *theory*, due to accuracy being capped at 95%.
 
-### Two (or more) throw, squirt, or drop gags of the same track that are used in the same round on the same cog can differ in whether or not they miss
+### Two (or more) throw, squirt, or drop gags of the same track that are used in the same round on the same cog can differ in whether or not they hit
 
 This &ldquo;bug&rdquo; (again, likely not a &ldquo;bug&rdquo; <i>per se</i>,
 since it is likely intentional) is similar to and related to the one above.
-This can occur in the presence of Wedding Cakes, Geysers, and Toontanics,
-whenever at least one cog is not lured and at least one single-target gag of
-the same track (throw, squirt, or drop, respectively) is used in the same
-round. This is, similarly to the previously listed &ldquo;bug&rdquo;, a
-violation of one of the rules that players learn very early on when it comes to
-multiple gags of the same track targeting the same cog in the same round.
-However, it is likely intentional (or at least a simple byproduct of something
-intentional), given that lure gags work similarly. In the case of throw,
-squirt, and drop, however, it comes as more shocking because gags of these
-tracks are inherently single-target &mdash; the only exceptions being the level
-seven gags of said tracks.
+This can occur in the presence of Wedding Cakes, Geysers, Toontanics, and drop
+SOS cards, whenever at least one cog is not lured and at least one
+single-target gag of the same track (throw, squirt, or drop, respectively) is
+used in the same round. This is, similarly to the previously listed
+&ldquo;bug&rdquo;, a violation of one of the rules that players learn very
+early on when it comes to multiple gags of the same track targeting the same
+cog in the same round. However, it is likely intentional (or at least a simple
+byproduct of something intentional), given that lure gags work similarly. In
+the case of throw, squirt, and drop, however, it comes as more shocking because
+gags of these tracks are inherently single-target &mdash; the only exceptions
+being the level seven gags of said tracks.
