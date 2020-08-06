@@ -221,10 +221,11 @@ prevent toons from placing ordinary trap gags down wherever they are.
 
 This sometimes happens in the presence of sound SOS cards. SOS cards that use
 gags are guaranteed to hit all of their targets, because they calculate their
-results differently than the corresponding ordinary gags. Ordinary sound gags,
-on the other hand, have 95% accuracy at best (and also 95% accuracy at worst,
-if we assume maxed sound), so it is possible for the SOS card sound gag(s) to
-hit while the ordinary sound gag(s) miss.
+[outcomes](https://en.wikipedia.org/wiki/Bernoulli_trial) differently than the
+corresponding ordinary gags. Ordinary sound gags, on the other hand, have 95%
+accuracy at best (and also 95% accuracy at worst, if we assume maxed sound), so
+it is possible for the SOS card sound gag(s) to hit while the ordinary sound
+gag(s) miss.
 
 This is a more odd behavior and is conceptually distinct from the similar
 &ldquo;bug&rdquo; listed further down, because in this case, only gags that
@@ -237,8 +238,8 @@ by analogy with lure gags: even with lure gags, two lure gags that have
 however, still classified as &ldquo;possibly explained as &lsquo;fully
 intentional&rsquo;&rdquo; because internally, it is intentional that SOS card
 gags and ordinary gags have their
-[outcomes](https://en.wikipedia.org/wiki/Bernoulli_trial) calculated
-differently.
+[outcomes](https://en.wikipedia.org/wiki/Bernoulli_trial) calculated in
+different ways.
 
 Note that in principle, this can also occur due to the combination of one or
 more drop SOS cards with one or more Toontanics.
