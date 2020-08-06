@@ -6,18 +6,21 @@
 TTR only allows for a single gag track to be organic, so one part of every
 toon&rsquo;s loadout (besides which gag track(s) they actually have access to)
 is what track they choose to plant. Typically the choice is between sound and
-throw. Lure is a common choice for those training lure and for those who rely
-heavily on lure when playing with others they don&rsquo;t know (and thus cannot
-trust to properly stun for the lure). Trap and drop are also fairly useful and
-are occasionally seen, but their usefulness is marginal within
-&ldquo;normal&rdquo; play; most organic trap users that I have met say that
-they mostly just wanted their railroad to one-shot level 12s. Organic toonup is
-vastly underpowered in normal play, and is thus *exceedingly* rare.
+throw. [I talk about planting drop in another
+document](../organic_drop/README.md) mirroring this one. Lure is a common
+choice for those training lure and for those who rely heavily on lure when
+playing with others who they don&rsquo;t know (and thus cannot trust to
+properly stun for the lure). Trap is also fairly useful and is occasionally
+seen, but its usefulness is marginal within &ldquo;normal&rdquo; play; most
+organic trap users that I have met say that they mostly just wanted their
+railroad to one-shot level 12s (although there are at least three other
+regularly useful combos involving organic trap). Organic toonup is vastly
+underpowered in normal play, and is thus *exceedingly* rare.
 
 These notes focus on the (in my opinion) severely underestimated underdog of
 the bunch: organic squirt. The focus of this document is *not* to convince the
 reader to use organic squirt, and when using organic squirt your mileage may
-vary wildly depending on which gag tracks you have access to, who you play
+vary wildly, depending on which gag tracks you have access to, who you play
 with, and what cogs in the game you fight the most. Instead, these are notes
 (maybe even a kind of guide) based on *my personal experience* (with all the
 associated arithmetic included, of course) using organic squirt on soundless
@@ -159,15 +162,16 @@ situations, because that claim is very much false. What I do claim is that in
 many situations and in many gag builds, organic squirt is a good choice and/or
 the best choice. I also claim that in my personal experience, organic squirt
 has served me very well across a variety of different toons with different gag
-tracks. I may make a document similar to this one for organic throw and/or
-organic drop in the future.
+tracks. I have already made [a document similar to this one for organic
+drop](../organic_drop/README.md), and may even make one for organic throw, in
+the future.
 
 ### Basic squirt knowledge
 
 The damage values of squirt gags (and their organic versions) are listed below:
 
 | Level | Name             | Damage | Damage (organic) |
-| ----- | ---------------- | ------ | ---------------- |
+| ----: | :--------------- | -----: | ---------------: |
 | 1     | Squirting Flower | 4      | 5                |
 | 2     | Glass Of Water   | 8      | 9                |
 | 3     | Squirtgun        | 12     | 13               |
@@ -188,8 +192,8 @@ cogs whose level is 10 or higher (assuming max throw).
 
 ### P0a [95%] &#x1f30a;
 
-**2 non-organic hoses**, **1 non-organic Storm Cloud**, and **1 organic Storm
-Cloud** takes out an **unlured level 10 v2.0** cog.
+**2 non-organic Fire Hoses**, **1 non-organic Storm Cloud**, and **1 organic
+Storm Cloud** takes out an **unlured level 10 v2.0** cog.
 
 #### The math
 
@@ -213,9 +217,9 @@ dropless, or just don&rsquo;t have any Safes left).
 
 ### P0b [95%] &#x1f30a;&#x1f30a;
 
-**1 organic Seltzer Bottle**, **1 non-organic hose**, **1 non-organic Storm
-Cloud**, and **1 organic Storm Cloud** takes out an **unlured level 10 v2.0**
-cog.
+**1 organic Seltzer Bottle**, **1 non-organic Fire Hose**, **1 non-organic
+Storm Cloud**, and **1 organic Storm Cloud** takes out an **unlured level 10
+v2.0** cog.
 
 #### The math
 
