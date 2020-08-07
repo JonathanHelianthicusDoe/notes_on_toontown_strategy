@@ -430,7 +430,8 @@ level 12** cog.
 Normally, when doing a strategy with one sound gag used to stun (and soften up)
 cogs for drop (and possibly also throw and/or squirt) gags, a Foghorn is
 necessary in the presence of one or more level 12 cogs. Organic drop fixes this
-problem. This is particularly common in CFOs, as well as in other bosses.
+problem. This is particularly common in CFOs and other bosses, as well as in DA
+Offices.
 
 ### X6 [76%] &#x2693;
 
