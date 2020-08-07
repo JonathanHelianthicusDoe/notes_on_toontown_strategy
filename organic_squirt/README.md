@@ -474,8 +474,8 @@ with organic drop.
 
 #### Comments
 
-See [strategy X8 in the notes on organic
-drop](../organic_drop/README.md#x8-9025---).
+See [strategy X5 in the notes on organic
+drop](../organic_drop/README.md#x5-9025---).
 
 ### X1 [90.25%] &#x1f30a; &#x1f333;
 

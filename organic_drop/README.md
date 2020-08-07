@@ -277,13 +277,13 @@ Piano** takes out a **lured level 12 v2.0** cog.
 
 #### When
 
-In CEO. Note that this is essentially a variation on X3 that makes clever use
+In CEO. Note that this is essentially a variation on X7 that makes clever use
 of &ldquo;yellow damage&rdquo; to completely defeat a lured level 12 v2.0 cog
 in a single round as efficiently as possible.
 
 #### Comments
 
-Like X3, this is alternatively an organic throw strategy (although the organic
+Like X7, this is alternatively an organic throw strategy (although the organic
 throw version is arguably slightly less efficient): **1 non-organic Cream
 Pie**, **1 organic Cream Pie**, **1 non-organic Safe**, and **1 non-organic
 Grand Piano** takes out a **lured level 12 v2.0** cog.
@@ -316,104 +316,7 @@ This is a variant on the more familiar: **1 non-organic Storm Cloud** and **3
 non-organic Safes** takes out a **lured level 11 v2.0** cog. The improvement of
 this minor variant is that it saves 1 Safe.
 
-### X2 [90.25%] &#x2693; &#x1f9f2;
-
-**1 non-organic Trapdoor**, **1 organic Big Weight**, and **1 non-organic
-Safe** takes out a **lured level 12** cog.
-
-#### The math
-
-```python
-  70 + 49 + 60 + ceil((49 + 60) / 5)
-= 70 + 49 + 60 + ceil(109       / 5)
-= 70 + 49 + 60 + 22
-= 201
-```
-
-#### When
-
-Because this is just a minor variant on the more familiar: **1 non-organic
-Trapdoor** and **2 non-organic Safes** takes out a **lured level 12** cog, this
-is useful any time that you would use the no-organic-gags variant. In
-particular, this strategy allows stunning for lure when there are level 12
-cog(s) present (very important) while still taking out a level 12 cog as
-efficiently as possible.
-
-#### Comments
-
-This also doubles as a (ever-so-slightly less efficient) organic trap strategy:
-**1 organic Trapdoor**, **1 non-organic Big Weight**, and **1 non-organic
-Safe** takes out a **lured level 12** cog.
-
-### X3 [95%] &#x2693; &#x1f9f2;
-
-**2 non-organic Cream Pies** and **1 organic Safe** takes out a **lured level
-12** cog.
-
-#### The math
-
-```python
-  40 + 40 + ceil((40 + 40) / 5) + ceil((40 + 40) / 2) + 66
-= 40 + 40 + ceil(80        / 5) + ceil(80        / 2) + 66
-= 40 + 40 + 16                  + 40                  + 66
-= 202
-```
-
-#### When
-
-The purpose of this strategy is to save a Cream Pie. It does so at the expense
-of 5 percentage points of accuracy, which is pretty good, so long as no ubers
-are present.
-
-#### Comments
-
-This doubles as an (arguably slightly less efficient) organic throw combo: **1
-non-organic Cream Pie**, **1 organic Cream Pie**, and **1 non-organic Safe**
-takes out a **lured level 12** cog.
-
-### X4a [75%] &#x2693;&#x2693; &#x1f9f2;
-
-**1 non-organic Fruit Pie** and **2 organic Safes** takes out a **lured level
-12** cog.
-
-#### The math
-
-```python
-  27 + ceil(27 / 2) + 66 + 66 + ceil((66 + 66) / 5)
-= 27 + ceil(27 / 2) + 66 + 66 + ceil(132       / 5)
-= 27 + 14           + 66 + 66 + 27
-= 200
-```
-
-#### When
-
-Depending on the situation, this saves anywhere from 1 to 3 Cream Pies. This is
-pretty nice, although you have to be willing to stomach the 75% accuracy
-(although it is effectively 94% accuracy, if using a multi-target toonup gag).
-
-Here is a slight variation: **1 non-organic Fire Hose** and **2 organic Safes**
-takes out a **lured level 12** cog.
-
-### X4b [75%] &#x2693; &#x1f9f2; &#x1f333;
-
-**1 organic Cream Pie**, **1 non-organic Big Weight**, and **1 organic Safe**
-takes out a **lured level 12** cog.
-
-#### The math
-
-```python
-  44 + ceil(44 / 2) + 45 + 66 + ceil((45 + 66) / 5)
-= 44 + ceil(44 / 2) + 45 + 66 + ceil(111       / 5)
-= 44 + 22           + 45 + 66 + 23
-= 200
-```
-
-#### When
-
-This is a variation on X4a, for cases where you only have one organic drop, but
-have at least one organic throw.
-
-### X5 [71.25%] &#x2693; &#x1f35e;
+### X2 [71.25%] &#x2693; &#x1f35e;
 
 **1 non-organic Aoogah** and **1 organic Grand Piano** takes out an **unlured
 level 12** cog.
@@ -429,11 +332,11 @@ level 12** cog.
 
 Normally, when doing a strategy with one sound gag used to stun (and soften up)
 cogs for drop (and possibly also throw and/or squirt) gags, a Foghorn is
-necessary in the presence of one or more level 12 cogs. Organic drop fixes this
-problem. This is particularly common in CFOs and other bosses, as well as in DA
-Offices.
+necessary in the presence of one or more level 12 cog(s). Organic drop fixes
+this problem. This is particularly common in CFOs and other bosses, as well as
+in DA offices.
 
-### X6 [76%] &#x2693;
+### X3 [76%] &#x2693;
 
 **1 non-organic Fruit Pie**, **1 non-organic Birthday Cake**, and **1 organic
 Big Weight** takes out an **unlured level 12** cog.
@@ -464,7 +367,7 @@ non-organic Cream Pie**, and **1 non-organic Birthday Cake** takes out an
 higher accuracy (80% accuracy) is worth the Cream Pie. Plus, using drop means
 that the probability that *anything* hits is higher: 91% &gt; 80%.
 
-### X7 [90.25%] &#x2693;
+### X4 [90.25%] &#x2693;
 
 **2 non-organic Elephant Trunks**, **1 non-organic Safe**, and **1 organic
 Safe** takes out an **unlured level 12** cog.
@@ -488,7 +391,7 @@ Here is a very marginal variation that requires two organic drop gags: **1
 non-organic Aoogah**, **1 non-organic Elephant Trunk**, and **2 organic Safes**
 takes out an **unlured level 12** cog.
 
-### X8 [90.25%] &#x2693; &#x1f333; &#x1f35e;
+### X5 [90.25%] &#x2693; &#x1f333; &#x1f35e;
 
 **1 organic Fire Hose**, **1 non-organic Storm Cloud**, and **1 organic Safe**
 takes out an **unlured level 12** cog.
@@ -518,6 +421,103 @@ that much* by saving an organic Fire Hose and using a Big Weight instead.
 
 See [strategy X0b in the notes on organic
 squirt](../organic_squirt/README.md#x0b-9025---).
+
+### X6 [90.25%] &#x2693; &#x1f9f2;
+
+**1 non-organic Trapdoor**, **1 organic Big Weight**, and **1 non-organic
+Safe** takes out a **lured level 12** cog.
+
+#### The math
+
+```python
+  70 + 49 + 60 + ceil((49 + 60) / 5)
+= 70 + 49 + 60 + ceil(109       / 5)
+= 70 + 49 + 60 + 22
+= 201
+```
+
+#### When
+
+Because this is just a minor variant on the more familiar: **1 non-organic
+Trapdoor** and **2 non-organic Safes** takes out a **lured level 12** cog, this
+is useful any time that you would use the no-organic-gags variant. In
+particular, this strategy allows stunning for lure when there are level 12
+cog(s) present (very important) while still taking out a level 12 cog as
+efficiently as possible.
+
+#### Comments
+
+This also doubles as a (ever-so-slightly less efficient) organic trap strategy:
+**1 organic Trapdoor**, **1 non-organic Big Weight**, and **1 non-organic
+Safe** takes out a **lured level 12** cog.
+
+### X7 [95%] &#x2693; &#x1f9f2;
+
+**2 non-organic Cream Pies** and **1 organic Safe** takes out a **lured level
+12** cog.
+
+#### The math
+
+```python
+  40 + 40 + ceil((40 + 40) / 5) + ceil((40 + 40) / 2) + 66
+= 40 + 40 + ceil(80        / 5) + ceil(80        / 2) + 66
+= 40 + 40 + 16                  + 40                  + 66
+= 202
+```
+
+#### When
+
+The purpose of this strategy is to save a Cream Pie. It does so at the expense
+of 5 percentage points of accuracy, which is pretty good, so long as no ubers
+are present.
+
+#### Comments
+
+This doubles as an (arguably slightly less efficient) organic throw combo: **1
+non-organic Cream Pie**, **1 organic Cream Pie**, and **1 non-organic Safe**
+takes out a **lured level 12** cog.
+
+### X8a [75%] &#x2693;&#x2693; &#x1f9f2;
+
+**1 non-organic Fruit Pie** and **2 organic Safes** takes out a **lured level
+12** cog.
+
+#### The math
+
+```python
+  27 + ceil(27 / 2) + 66 + 66 + ceil((66 + 66) / 5)
+= 27 + ceil(27 / 2) + 66 + 66 + ceil(132       / 5)
+= 27 + 14           + 66 + 66 + 27
+= 200
+```
+
+#### When
+
+Depending on the situation, this saves anywhere from 1 to 3 Cream Pies. This is
+pretty nice, although you have to be willing to stomach the 75% accuracy
+(although it is effectively 94% accuracy, if using a multi-target toonup gag).
+
+Here is a slight variation: **1 non-organic Fire Hose** and **2 organic Safes**
+takes out a **lured level 12** cog.
+
+### X8b [75%] &#x2693; &#x1f9f2; &#x1f333;
+
+**1 organic Cream Pie**, **1 non-organic Big Weight**, and **1 organic Safe**
+takes out a **lured level 12** cog.
+
+#### The math
+
+```python
+  44 + ceil(44 / 2) + 45 + 66 + ceil((45 + 66) / 5)
+= 44 + ceil(44 / 2) + 45 + 66 + ceil(111       / 5)
+= 44 + 22           + 45 + 66 + 23
+= 200
+```
+
+#### When
+
+This is a variation on X8a, for cases where you only have one organic drop, but
+have at least one organic throw.
 
 ### X9a [80%] &#x2693; &#x1f9f2;
 
