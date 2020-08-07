@@ -516,7 +516,7 @@ that much* by saving an organic Fire Hose and using a Big Weight instead.
 #### Comments
 
 See [strategy X0b in the notes on organic
-squirt](../organic_squirt/README.md#x0b-9025--).
+squirt](../organic_squirt/README.md#x0b-9025---).
 
 ### X9a [80%] &#x2693; &#x1f9f2;
 
