@@ -1,13 +1,3 @@
-# cog level
-
-# number of toons attacking
-
-# number of multi-target toonups
-
-
-
-
-
 # This TOML data represents a hash table that maps from cog level (as a string,
 # per TOML semantics) to a list that is indexed by the number of gags in each
 # combo.  In particular, the element at index `n` (zero-indexed) corresponds to
@@ -92,8 +82,76 @@
         [{ type = "throw", level = 2, organic = false }, { type = "throw", level = 6, organic = false }],
     ],
     [
+        [{ type = "squirt", level = 4, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = true }],
         [{ type = "throw", level = 4, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = false }],
         [{ type = "squirt", level = 2, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 5, organic = false }],
     ],
+    [
+        [{ type = "squirt", level = 2, organic = false }, { type = "squirt", level = 3, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = false }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = true }],
+        [{ type = "squirt", level = 4, organic = false }, { type = "squirt", level = 4, organic = true }, { type = "squirt", level = 5, organic = true }, { type = "squirt", level = 5, organic = true }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 5, organic = false }],
+        [{ type = "squirt", level = 4, organic = false }, { type = "squirt", level = 5, organic = false }, { type = "squirt", level = 5, organic = false }, { type = "squirt", level = 5, organic = false }],
+    ],
+]
+
+11 = [
+    [
+        [{ type = "drop", level = 6, organic = false }],
+    ],
+    [
+        [{ type = "drop", level = 5, organic = true }, { type = "drop", level = 5, organic = true }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 6, organic = true }],
+        [{ type = "throw", level = 5, organic = false }, { type = "throw", level = 6, organic = false }],
+        [{ type = "throw", level = 6, organic = false }, { type = "drop", level = 5, organic = false }],
+    ],
+    [
+        [{ type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = false }],
+        [{ type = "throw", level = 4, organic = false }, { type = "drop", level = 4, organic = true }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 4, organic = true }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 5, organic = true }],
+        [{ type = "squirt", level = 4, organic = false }, { type = "drop", level = 4, organic = true }, { type = "drop", level = 5, organic = true }],
+        [{ type = "squirt", level = 3, organic = false }, { type = "drop", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 5, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "throw", level = 5, organic = false }, { type = "throw", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
+    ],
+    [
+        [{ type = "squirt", level = 4, organic = false }, { type = "squirt", level = 4, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = false }],
+        [{ type = "throw", level = 4, organic = true }, { type = "throw", level = 4, organic = true }, { type = "throw", level = 4, organic = true }, { type = "throw", level = 5, organic = true }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 5, organic = false }, { type = "throw", level = 5, organic = false }],
+        [{ type = "squirt", level = 5, organic = true }, { type = "squirt", level = 5, organic = true }, { type = "squirt", level = 5, organic = true }, { type = "squirt", level = 5, organic = true }],
+    ],
+]
+
+12 = [
     [],
+    [
+        [{ type = "squirt", level = 4, organic = false }, { type = "drop", level = 6, organic = true }],
+        [{ type = "squirt", level = 5, organic = false }, { type = "drop", level = 6, organic = false }],
+        [{ type = "squirt", level = 6, organic = false }, { type = "squirt", level = 6, organic = true }],
+        [{ type = "throw", level = 6, organic = false }, { type = "throw", level = 6, organic = false }],
+    ],
+    [
+        [{ type = "drop", level = 4, organic = true }, { type = "drop", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "throw", level = 5, organic = true }, { type = "drop", level = 5, organic = true }, { type = "drop", level = 5, organic = true }],
+        [{ type = "drop", level = 5, organic = false }, { type = "drop", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 5, organic = true }, { type = "squirt", level = 6, organic = false }, { type = "drop", level = 5, organic = true }],
+        [{ type = "squirt", level = 5, organic = false }, { type = "squirt", level = 6, organic = true }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 6, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 6, organic = true }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = true }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 6, organic = false }, { type = "drop", level = 4, organic = true }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 6, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 5, organic = false }, { type = "throw", level = 6, organic = false }],
+    ],
+    [
+        [{ type = "squirt", level = 4, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 5, organic = false }, { type = "squirt", level = 5, organic = false }, { type = "drop", level = 4, organic = true }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 5, organic = false }, { type = "squirt", level = 5, organic = true }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "squirt", level = 4, organic = false }, { type = "squirt", level = 4, organic = false }, { type = "drop", level = 5, organic = false }, { type = "drop", level = 5, organic = true }],
+        [{ type = "squirt", level = 4, organic = false }, { type = "squirt", level = 5, organic = false }, { type = "drop", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "throw", level = 5, organic = false }, { type = "throw", level = 5, organic = false }, { type = "throw", level = 5, organic = true }, { type = "throw", level = 5, organic = true }],
+        [{ type = "squirt", level = 4, organic = true }, { type = "squirt", level = 4, organic = true }, { type = "squirt", level = 5, organic = true }, { type = "squirt", level = 6, organic = true }],
+        [{ type = "squirt", level = 4, organic = true }, { type = "squirt", level = 5, organic = false }, { type = "squirt", level = 5, organic = true }, { type = "squirt", level = 6, organic = false }],
+        [{ type = "squirt", level = 5, organic = false }, { type = "squirt", level = 5, organic = false }, { type = "squirt", level = 5, organic = false }, { type = "squirt", level = 6, organic = false }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 6, organic = false }],
+    ],
 ]
