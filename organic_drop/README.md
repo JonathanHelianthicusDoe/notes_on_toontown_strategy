@@ -562,7 +562,27 @@ level 11** cog.
 This is just a variation on X9a that is slightly more efficient, but makes use
 of two organic drop gags instead of one.
 
-### X10 [90.25%] &#x2693; &#x1f9f2; &#x1f35e;
+### X10 [80.75%] &#x2693;
+
+**1 non-organic Seltzer Bottle**, **1 non-organic Big Weight**, and **1 organic
+Big Weight** takes out an **unlured level 10** cog.
+
+#### The math
+
+```python
+  21 + 45 + 49 + ceil((45 + 49) / 5)
+= 21 + 45 + 49 + ceil(94        / 5)
+= 21 + 45 + 49 + 19
+= 134
+```
+
+#### When
+
+This is a remarkably efficient [KPSS](https://kpss.neocities.org/) way of
+taking out an unlured level 10 cog with 3 gags, while still being reasonably
+accurate.
+
+### X11 [90.25%] &#x2693; &#x1f9f2; &#x1f35e;
 
 **1 non-organic Trapdoor** and **1 organic Safe** takes out a **lured level
 10** cog.
@@ -584,7 +604,7 @@ taking out a level 10 cog.
 This strategy also doubles as an organic trap strategy: **1 organic Trapdoor**
 and **1 non-organic Safe** takes out a **lured level 10** cog.
 
-### X11 [85%] &#x2693; &#x1f9f2; &#x1f333;
+### X12 [85%] &#x2693; &#x1f9f2; &#x1f333;
 
 **1 organic Cream Pie** and **1 organic Safe** takes out a **lured level 10**
 cog.
@@ -604,7 +624,7 @@ This saves a cream pie over the usual: **2 non-organic Cream Pies** takes out a
 typically a non-issue in cases where you are luring the level 10 in the same
 round that you use this strategy.
 
-### X12 [85.5%] &#x2693; &#x1f333; &#x1f35e;
+### X13 [85.5%] &#x2693; &#x1f333; &#x1f35e;
 
 **1 organic Cream Pie** and **1 organic Safe** takes out an **unlured level 9**
 cog.
@@ -622,7 +642,7 @@ Although this is marginally less efficient w.r.t. raw power in comparison to
 P3, this is a great strategy to use in preference to P3 whenever the accuracy
 ends up making it more favorable.
 
-### X13 [90%] &#x2693; &#x1f9f2;
+### X14 [90%] &#x2693; &#x1f9f2;
 
 **1 non-organic Fire Hose** and **1 organic Safe** takes out a **lured level
 9** cog.

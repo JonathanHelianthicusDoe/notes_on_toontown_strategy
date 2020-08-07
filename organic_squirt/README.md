@@ -621,7 +621,7 @@ demand, but Safes are not.
 
 Also, this strategy doubles as an organic drop strategy: [**1 non-organic Fire
 Hose** and **1 organic Safe** takes out a **lured level 9**
-cog](../organic_drop/README.md#x13-90--).
+cog](../organic_drop/README.md#x14-90--).
 
 #### Comments
 
