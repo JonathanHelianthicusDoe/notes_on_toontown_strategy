@@ -1,7 +1,7 @@
 # Notes on organic squirt
 
-![CC BY-SA 4.0+](https://i.creativecommons.org/l/by-sa/4.0/88x31.png
-"CC BY-SA 4.0+")
+[![CC BY-SA 4.0+](https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+"CC BY-SA 4.0+")](https://creativecommons.org/licenses/by-sa/4.0/)
 
 TTR only allows for a single gag track to be organic, so one part of every
 toon&rsquo;s loadout (besides which gag track(s) they actually have access to)
@@ -426,6 +426,10 @@ throwless toon(s).
 
 ## Mixed strategies
 
+<!-- TODO: Maybe add a combo of **1 non-organic Storm Cloud**, **1 organic
+Storm Cloud**, **1 non-organic Big Weight**, and **1 non-organic Safe** takes
+out a **lured level 12 v2.0** cog? -->
+
 ### X0a [90.25%] &#x1f30a; &#x1f35e;
 
 **1 non-organic Fire Hose**, **1 organic Storm Cloud**, and **1 non-organic
@@ -444,10 +448,11 @@ Safe** takes out an **unlured level 12** cog.
 #### When
 
 Similar to P1, but less expensive in terms of gags at the cost of requiring 3
-toons (instead of 2) and being slightly less accurate (more precisely, by 4.75
-percentage points).
+toons (instead of 2) and being slightly less accurate (in particular, less
+accurate by 4.75 percentage points). Like P1, this is very useful in lureless
+contexts (esp. [KPSS](https://kpss.neocities.org/)).
 
-### X0b [90.25%] &#x1f30a; &#x1f333;
+### X0b [90.25%] &#x1f30a; &#x1f333; &#x1f35e;
 
 **1 organic Fire Hose**, **1 non-organic Storm Cloud**, and **1 organic Safe**
 takes out an **unlured level 12** cog.
@@ -466,6 +471,11 @@ takes out an **unlured level 12** cog.
 
 Variant of X0a that is generally preferable in the case that you have someone
 with organic drop.
+
+#### Comments
+
+See [strategy X8 in the notes on organic
+drop](../organic_drop/README.md#x8-9025--).
 
 ### X1 [90.25%] &#x1f30a; &#x1f333;
 
@@ -609,13 +619,17 @@ contexts and/or contexts where you want to make use of drop gag(s).
 This strategy is mostly useful when Cream Pies are scarce and/or in high
 demand, but Safes are not.
 
+Also, this strategy doubles as an organic drop strategy: [**1 non-organic Fire
+Hose** and **1 organic Safe** takes out a **lured level 9**
+cog](../organic_drop/README.md#x13-90--).
+
 #### Comments
 
 Believe it or not, TTR sometimes bungles cog HP calculations! I&rsquo;ve known
 about a bug that, among other things, affects this particular strategy, causing
-the cog not to die even though it has 0 (or fewer) HP. It may be fixed now or
-it may be situational, but if you see it happen, don&rsquo;t say I didn&rsquo;t
-warn you.
+the cog not to die even though it has 0 (or fewer) HP. [See
+here](../ttr_quirks/README.md#cogs-with-less-than-one-hp-do-not-die) for more
+details.
 
 ### X6 [90.25%] &#x1f30a; &#x1f9f2; &#x1f333;
 
