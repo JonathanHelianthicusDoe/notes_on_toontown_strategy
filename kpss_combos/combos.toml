@@ -12,6 +12,7 @@
 # Each list of gag combos is ordered in a way that roughly corresponds to
 # "better combos first".  The gags within each combo are ordered in the order
 # that they are actually used in-game, as per Toontown... semantics.
+
 7 = [
     [
         [{ type = "squirt", level = 6, organic = false }],
@@ -37,7 +38,6 @@
         [{ type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = false }],
         [{ type = "squirt", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
         [{ type = "throw", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
-        [{ type = "squirt", level = 5, organic = false }, { type = "drop", level = 5, organic = false }],
     ],
     [
         [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = false }],
@@ -140,6 +140,7 @@
         [{ type = "squirt", level = 6, organic = true }, { type = "drop", level = 4, organic = false }, { type = "drop", level = 4, organic = true }],
         [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 6, organic = false }, { type = "drop", level = 4, organic = true }],
         [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 6, organic = false }, { type = "drop", level = 5, organic = false }],
+        [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 4, organic = true }, { type = "throw", level = 6, organic = true }],
         [{ type = "throw", level = 4, organic = false }, { type = "throw", level = 5, organic = false }, { type = "throw", level = 6, organic = false }],
     ],
     [
