@@ -38,9 +38,9 @@ bug can cause:
    3 cog. Thus, the cog has 0 HP &mdash; but it does not die, and can still
    attack toons as if it had more than 0 HP remaining.
 2. Use an organic Firehose on a lured level 9 v1.0 cog, immediately followed by
-   a Safe (inorganic or organic(!), it doesn&rsquo;t matter). This deals
-   (assuming an inorganic Safe) `33 + ceil(33 / 2) + 60 = 33 + 17 + 60 = 110`
-   damage, which is exactly the HP of a level 9 cog.
+   an inorganic<sup>&dagger;</sup> Safe. This deals
+   `33 + ceil(33 / 2) + 60 = 33 + 17 + 60 = 110` damage, which is exactly the HP
+   of a level 9 cog.
 3. Use an inorganic Birthday Cake on an unlured level 10 v1.0 cog. Lure the
    cog, and hit it with an inorganic Seltzer Bottle. This deals
    `100 + 21 + ceil(21 / 2) = 100 + 21 + 11 = 132` damage, which is exactly the
@@ -65,13 +65,16 @@ division with floating-point division (floating-point division and then using
 infinity&rdquo; in Python, even if it is needlessly inefficient&hellip;)
 because the `/` operator is used for *both* of these operations in Python 2.
 This is a quirk of Python 2 that was fixed in Python 3 via the addition of an
-entirely new operator dedicated to integer division: `//`. However, the fact
-that I was able to reproduce this bug with an organic Firehose and an
-**organic** Safe on a lured level 9 v1.0 cog (as noted in the list above) seems
-to suggest that the bug *may* be more complex than that (because even with
-integer division used to calculate the orange damage, that&rsquo;s still
-bringing the cog to &minus;5 HP). It is, however, still clearly a simple
-arithmetic blunder.
+entirely new operator dedicated to integer division: `//`.
+
+&dagger;: I was able to reproduce this bug long ago with an organic Firehose and
+an ***organic*** Safe on a lured level 9 v1.0 cog. However, now that I get back
+around to it, it appears to have been anecdotal, as I have had trouble
+reproducing it again. It&rsquo;s also possible that this particular instance of
+the bug has been patched since then, which would not be surprising given that
+it&rsquo;s so egregious. If you can reproduce this version of the bug, please do
+send me a screen-recording of it, and/or at least a more reliable and exact
+sequence of steps for reproducing it.
 
 ## Unused gags are sometimes stolen from toons&rsquo; inventories for no apparent reason
 
