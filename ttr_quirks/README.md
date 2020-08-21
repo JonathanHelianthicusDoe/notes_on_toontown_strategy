@@ -69,12 +69,12 @@ entirely new operator dedicated to integer division: `//`.
 
 &dagger;: I was able to reproduce this bug long ago with an organic Firehose and
 an ***organic*** Safe on a lured level 9 v1.0 cog. However, now that I get back
-around to it, it appears to have been anecdotal, as I have had trouble
-reproducing it again. It&rsquo;s also possible that this particular instance of
-the bug has been patched since then, which would not be surprising given that
-it&rsquo;s so egregious. If you can reproduce this version of the bug, please do
-send me a screen-recording of it, and/or at least a more reliable and exact
-sequence of steps for reproducing it.
+around to it, it appears to have been anecdotal, and therefore possibly
+indeterministic, as I have had trouble reproducing it again. It&rsquo;s also
+possible that this particular instance of the bug has been patched since then,
+which would not be surprising given that it&rsquo;s so egregious. If you can
+reproduce this version of the bug, please do send me a screen-recording of it,
+and/or at least a more reliable and exact sequence of steps for reproducing it.
 
 ## Unused gags are sometimes stolen from toons&rsquo; inventories for no apparent reason
 
