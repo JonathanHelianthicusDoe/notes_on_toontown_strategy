@@ -9,6 +9,80 @@ although some or all of them may (or may not) be present in other Toontowns.
 
 ## Cogs with less than one HP do not die
 
+**Preface:** Apparently, TTR has not only inherited this bug from TTO (which I
+expected anyways), but this bug has also had a consistent server-side
+implementation stretching as far back as is known (presumably even earlier than
+2003). The semantics of said server-side implementation are that the
+&ldquo;knockback&rdquo;/&ldquo;orange&rdquo; damage is equal to the raw damage
+divided by two, and then rounded towards zero (in [C][c]:
+`int kbBonus = totalDamage / 2;`, with `totalDamage` being an `int`). The
+client, however, has always rounded towards positive infinity (rather than
+towards zero), resulting in clients seeing completely incorrect numbers. The
+natural approach here is to observe that the server side has always rounded
+towards zero and call that the one-and-final truth; in this case, this bug is
+simply a visual one (albeit an extremely serious visual bug that happens to
+affect the core mechanic of the game). This is a perfectly good interpretation,
+and I am sympathetic to it, but I am also somewhat sympathetic to my original
+interpretation, which is that rounding towards positive infinity are the
+intended semantics. The main reasons that one might believe this are (here we
+assume a Python 2 implementation):
+
+1. Yellow damage (combo damage) **is rounded towards positive infinity
+   already**, and has no known issues. This is essentially guaranteed to be
+   intentional (i.e. the semantics intended by the original developers of TTO),
+   since there are no known bugs in this respect, and rounding towards positive
+   infinity is &mdash; as mentioned below &mdash; not generally something that
+   you can do *accidentally*. In this case, particularly, the division is by
+   five (rather than two), so we know that the rounding *really is* towards
+   positive infinity (or away from zero, which is the same for positive
+   numbers anyways) by testing cases in which the pre-rounded result is not an
+   integer nor a [half-integer](https://en.wikipedia.org/wiki/Half-integer).
+   This eliminates the possibility that any implementation of `round` (i.e.
+   rounding to the nearest integer, with some way of breaking ties) is being
+   used. If the intended semantics of orange damage is to round towards zero,
+   then this creates an inconsistency/incongruency where there apparently was
+   none before.
+2. If rounding towards zero was the intended semantics, then Toontown
+   (including both TTO and TTR) has always displayed the incorrect numbers to
+   the players, even though the damage numbers are supposedly the One True
+   &amp; Precise Source&trade; of information (as opposed to imprecise sources
+   of information, like the color of cog lights) w.r.t. how much damage you are
+   dealing to cogs. Because of this, declaring the intended semantics to be
+   &ldquo;rounding towards zero&rdquo; &mdash; and thus fixing the bug by
+   changing the numbers that are displayed &mdash; is arguably *more* of a
+   [retcon](https://en.wikipedia.org/wiki/Retroactive_continuity) from the
+   player&rsquo; perspective than declaring the intended semantics to be
+   &ldquo;rounding towards positive infinity&rdquo; and changing the
+   server-side behavior.
+3. How do you even make the mistake in this way? Assuming that rounding towards
+   zero is the intended semantics, the server is correctly rounding towards
+   zero, and the client is erroneously rounding towards positive infinity. How
+   does one *accidentally* round towards positive infinity, exactly? It is
+   much, much easier to accidentally round towards zero, because that is the
+   default behavior of integer division in *any* programming language, because
+   that is how *all* hardware implements it. On the other hand, if you were to
+   accidentally round towards positive infinity, you would either have to
+   *accidentally* do some convoluted integer arithmetic (e.g.
+   `kbBonus = (totalDamage - 1) / 2 + 1`, again assuming an integral value for
+   `totalDamage`), or *accidentally* use a `ceil` (ceiling) or `round` function
+   call when really you meant to use `floor` or even simply `int` function
+   call. The latter is a more understandable mistake, but still begs the
+   question of why you would use `ceil` when the semantics are clearly the
+   opposite (rounding towards positive infinity) or use `round` when no
+   implementation of `round` is going to actually have the semantics that you
+   intend (even if it does work in some cases). It also begs the question of
+   why you are using unnecessarily inefficient [floating point
+   division][fdiv]\(!\) when all you want is to divide an integer by two, and
+   possibly round up (again, e.g. `kbBonus = (totalDamage - 1) / 2 + 1`).
+
+Naturally, this is a slippery question to ask, since ultimately it is either
+asking for the original intent of TTO&rsquo;s developers &mdash; intent which
+is almost certainly lost to time &mdash; or asking for a normative judgement.
+Either way, though, this is a serious bug (visual or otherwise), and so is left
+here at the top of the list.
+
+---
+
 This is, perhaps, the most shocking one, since it violates one of the most core
 principles of cog-fighting: cogs with their HP lowered to zero &mdash; or less
 &mdash; explode, thus being removed from the battle entirely. An quirk of this
@@ -219,6 +293,21 @@ cogs to give extra accuracy to other gags (lure, throw, and drop in
 particular); however, they *do* behave like actual trap gags in that they
 prevent toons from placing ordinary trap gags down wherever they are.
 
+## The damage instances that a lured cog takes in a given round, as the result of a given gag track, are displayed in an incorrect order
+
+In particular, this only applies to throw and to squirt, since those are the
+only gag tracks that benefit from &ldquo;orange damage&rdquo; (knockback
+damage). When a lured cog is hit by two or more throw gags (or two or more
+squirt gags, as the case may be) in a given round, it takes the raw damage of
+the throw gags, as well as the &ldquo;yellow damage&rdquo; (combo damage) due
+to there being more than one throw gag hitting that cog, as well as the orange
+damage due to the cog being hit with throw while it is lured. Semantically,
+this is the correct ordering, as anyone who is familiar with so-called
+&ldquo;carryover damage&rdquo; can tell you. Raw damage is applied first,
+followed by yellow damage, followed by orange damage. But in-game, the orange
+damage is displayed before the yellow damage (although the raw damage is
+correctly shown before both of them).
+
 ---
 
 ## Addendum: bugs that could, possibly, be explained as &ldquo;fully intentional&rdquo; and thus not be bugs at all
@@ -310,3 +399,6 @@ byproduct of something intentional), given that lure gags work similarly. In
 the case of throw, squirt, and drop, however, it comes as more shocking because
 gags of these tracks are inherently single-target &mdash; the only exceptions
 being the level seven gags of said tracks.
+
+[c]: https://en.wikipedia.org/wiki/C_%28programming_language%29
+[fdiv]: https://en.wikipedia.org/wiki/Floating-point_arithmetic#Multiplication_and_division
