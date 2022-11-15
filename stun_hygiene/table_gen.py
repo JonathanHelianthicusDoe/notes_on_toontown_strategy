@@ -4,6 +4,10 @@ HEAD = """\
 | level | gag  |  95% |  90% |  85% |
 | ----: | :--- | ---: | ---: | ---: |
 """
+HEAD_ABBR = """\
+| level |  95% |  90% |  85% |
+| ----: | ---: | ---: | ---: |
+"""
 GAGS = ["magnet", "hypno", "org hypno", "throw", "drop"]
 PROP_ACC = {
     "magnet": 60,
@@ -27,23 +31,35 @@ def tgtDef(level):
     return -5 * (level - 1)
 
 
-out = HEAD
-for level in range(12, 6, -1):
-    for gag in GAGS:
-        stunlessHitChance = PROP_ACC[gag] + 60 + tgtDef(level)
-        if stunlessHitChance >= 95:
-            continue
-        hitChances = [stunlessHitChance + 20 * n for n in range(0, 4)]
+def printTable(gags):
+    out = HEAD if len(gags) > 1 else HEAD_ABBR
 
-        out += f"| {level} | &#x{hex(EMOJI[gag])[2:]};&nbsp;{gag} |"
-        for hitChanceTarget in [95, 90, 85]:
-            stuns = -1
-            for i, hitChance in enumerate(hitChances):
-                if hitChance >= hitChanceTarget:
-                    stuns = i
-                    break
+    for level in range(14, 6, -1):
+        for gag in gags:
+            stunlessHitChance = PROP_ACC[gag] + 60 + tgtDef(level)
+            if stunlessHitChance >= 95:
+                continue
+            hitChances = [stunlessHitChance + 20 * n for n in range(0, 4)]
 
-            out += f" {stuns} |"
-        out += "\n"
+            out += f"| {level} |"
+            if len(gags) > 1:
+                out += f" &#x{hex(EMOJI[gag])[2:]};&nbsp;{gag} |"
+            for hitChanceTarget in [95, 90, 85]:
+                stuns = -1
+                for i, hitChance in enumerate(hitChances):
+                    if hitChance >= hitChanceTarget:
+                        stuns = i
+                        break
 
-print(out, end="")
+                out += f" {stuns} |"
+            out += "\n"
+
+    print(out, end="")
+
+
+print("#### &#x1f4b8;&nbsp;Lure\n")
+printTable(["magnet", "hypno", "org hypno"])
+print("\n#### &#x1f3b9;&nbsp;Drop\n")
+printTable(["drop"])
+print("\n#### &#x1f967;&nbsp;Throw\n")
+printTable(["throw"])
