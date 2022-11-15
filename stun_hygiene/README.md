@@ -31,7 +31,7 @@ that can stun for it. The action that we use to provide the stunning effect
 must satisfy **all** of the following&hellip;:
 
 <details>
-<summary>Gory details</summary>
+<summary>Gory details (optional)</summary>
 
 - The stunning action must be picked in the same round as the beneficiary.
 - The stunning action must take effect **strictly** prior to the beneficiary.
