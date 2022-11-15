@@ -189,7 +189,8 @@ Cogs above level 14 are not included, both for brevity, and also because they
 don&rsquo;t show up very often &mdash; and when they do, you are usually at the
 Boiler fight, where you&rsquo;re probably using remotes and fires and so
 on&hellip; Sound &amp; squirt are also omitted because you only need to know
-that they can be stunned for if the cog is level 14 or higher.
+that they can&rsquo;t be meaningfully stunned for, unless the cog is level 14
+or higher.
 
 This chart **assumes that any relevant gag track is maxed**, i\.e. that the
 toon using the gag has access to the level 7 gag of the respective gag
