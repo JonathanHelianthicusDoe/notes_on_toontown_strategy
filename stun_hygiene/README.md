@@ -10,6 +10,31 @@ method by which toons may increase their gags&rsquo;
 a full-fledged [game mechanic](https://en.wikipedia.org/wiki/Game_mechanics)
 that can be carefully utilized to optimise for successful cog battles.
 
+## The short version (TL;DR)
+
+- If you like it when your gags don&rsquo;t miss, then you should stun for
+  them. Typically:
+  - 1 or 2 stuns tends to do it for lure, depending on what lure gag
+    you&rsquo;re using, and on whether or not the cog is above roughly level
+    &ap;12.
+  - 2 stuns tends to do it for drop (again, except for very high level cogs),
+    although in certain cases you may have to settle for less.
+- Paying attention to accuracy concerns has very desirable
+  [statistical](https://en.wikipedia.org/wiki/Statistics) properties that will
+  make your cog battles considerably more successful on average.
+  - Always remember, however, that the chance of a given gag hitting is capped
+    at a maximum of 95%, unless the gag is already guaranteed to hit for some
+    reason. No amount of stunning will get you to 100%.
+- You can stun for lure with toon-up and/or trap.
+- You can stun for drop with almost anything.
+- Toon-up doesn&rsquo;t actually have to do any healing to act as a stun; it
+  just has to not miss.
+- You can&rsquo;t stun for single-target gags with single-target toon-up.
+- There are a lot more ways to stun than you probably realize, including some
+  weird ones. See below for more details.
+
+If you&rsquo;re curious, continue reading&hellip;
+
 ## How do I stun?
 
 First, we must consider what kinds of gags we can even &ldquo;stun for&rdquo;
@@ -130,9 +155,13 @@ stun hygiene, this tends to mean the following:
 
 &#x1f4a1; When stunning would increase the hit-chance of a gag (i\.e. it can be
 stunned for, and isn&rsquo;t already at 95% hit-chance), **and** you can stun
-for that gag whilst losing little or no [tempi][tempo] &mdash; or even whilst
-gaining tempi, as is often the case &mdash; then you intentionally stun for
-that gag.
+for that gag whilst expending little or no additional resources\* on top of
+what you would have otherwise expended, then you intentionally stun for that
+gag.
+
+\*Here, the asterisked &ldquo;resources&rdquo; collectively (and somewhat
+vaguely) refers to a combination of laff, [tempi][tempo], gags, SOS cards,
+fires, etc.
 
 A corollary of this would be:
 
