@@ -180,7 +180,7 @@ following pair of observations:
   - Gags (and possibly other disposable resources as well).
   - Laff.
 - When a gag has an uncomfortably low hit-chance (which may just mean that it
-  has a hit-chance below 95%, or the threshold may be looser), it is high
+  has a hit-chance below 95%, or the threshold may be looser), it is highly
   likely &mdash; even in general &mdash; that you can do something to fix it.
 
 This seems to imply that we have no choice but to pay close attention to
