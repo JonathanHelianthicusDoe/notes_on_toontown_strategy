@@ -110,7 +110,9 @@ must satisfy **all** of the following&hellip;:
   to give any laff**; it merely has to &ldquo;hit&rdquo; (rather than miss).
   Thus, in some situations &mdash; indeed, in _many_ more situations than you
   likely realize &mdash; it makes _very_ good sense to toon-up even when
-  everyone else is already at full laff.
+  everyone else is already at full laff. Regardless of how much a toon-up gag
+  heals, you can tell that it missed if the text in the chat bubbles that
+  appear above the targets&rsquo; heads is in all lowercase; otherwise, it hit.
 - <b>Trap</b> gags (including SOSes<sup>\[3\]</sup>). Trap gags are unique in
   that they do not have to be activated (by lure) to stun; rather, the simple
   act of placing a trap gag counts as an attack on that cog(s) for the purpose
@@ -400,8 +402,11 @@ headlines.
    trap SOS to get canceled, and any remaining ones do damage normally, which
    suggests &ldquo;multiple single-target attacks&rdquo;. However, I
    can&rsquo;t be certain. If you do happen to know, please tell me!
-4. I&rsquo;m unsure about whether or not remotes stun, which is why they are
-   not in the above list. If you do happen to know, please tell me!
+4. When I originally wrote this, I was unsure about whether or not remotes
+   stun. I have since been informed that remote-controlled cogs are treated
+   almost identically to lured cogs for the purpose of hit-chances, with the
+   exception of drop gags having a 100% hit-chance (as opposed to 0% hit-chance
+   when lured).
 5. Yes, how close you are to maxing a track affects your accuracy with the gags
    in that track! One more reason to max your dang gags!
 
