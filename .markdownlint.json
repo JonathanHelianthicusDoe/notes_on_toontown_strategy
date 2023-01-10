@@ -5,7 +5,16 @@
   "MD026": { "punctuation": ".,:。，；：" },
   "MD029": { "style": "ordered" },
   "MD033": {
-    "allowed_elements": ["img", "sup", "sub", "details", "summary", "br", "i"]
+    "allowed_elements": [
+      "img",
+      "sup",
+      "sub",
+      "details",
+      "summary",
+      "br",
+      "i",
+      "b"
+    ]
   },
   "MD035": { "style": "---" }
 }

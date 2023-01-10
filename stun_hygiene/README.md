@@ -63,21 +63,12 @@ must satisfy **all** of the following&hellip;:
   This just means that the stunning action must take effect prior to the
   beneficiary, and the two actions must not be from the same gag track (e\.g.
   they cannot both be drop gags).
-- The stunning action and the beneficiary must overlap; that is:
-  - If the stunning action heals<sup>\[2\]</sup> toons (e\.g. a toon-up gag):
-    The toon performing the beneficiary action must be affected by the stunning
-    action.
-  - Otherwise: The [set] of the stunning action&rsquo;s targets (e\.g. in the
-    case of a sound gag, this is just &ldquo;the set of all cogs that are
-    currently in the battle&rdquo;), and the set of the beneficiary&rsquo;s
-    targets, must overlap; that is, their [intersection][intsc] must not be
-    [empty](https://en.wikipedia.org/wiki/Empty_set).
+- If both the stunning action and the beneficiary are single-target, then both
+  actions must have the same target. Note that the target of a single-target
+  toon-up gag is a toon, not a cog.
 - The stunning action must not miss.
   - This applies to toon-up gags as well, despite the fact that toon-up gags
     still have an effect (albeit a greatly reduced one) when they miss.
-- If the stunning action heals<sup>\[2\]</sup> toons, then the stunning action
-  and the beneficiary action must not both be single-target. In other words,
-  one or both of the two actions must be multi-target.
 
 </details>
 
@@ -85,14 +76,11 @@ must satisfy **all** of the following&hellip;:
 
 - Stuns don&rsquo;t persist across rounds.
 - The stun has to happen before the thing that you&rsquo;re stunning for.
-- The stun and the thing that you&rsquo;re stunning for have to overlap
-  somehow. Hitting one cog with a fire hose won&rsquo;t stun for a safe
-  that&rsquo;s about to be dropped on a different cog, and tooning up Alice
-  with a pixie dust won&rsquo;t stun for the big magnet that Bob is about to
-  use.
 - Gags that miss don&rsquo;t provide any stun. This applies to toon-up gags.
-- You can&rsquo;t use a single-target toon-up gag to stun for a single-target
-  gag.
+- If you stun with a single-target gag, then it has to target the same cog as
+  the thing that you&rsquo;re stunning for.
+  - This means that you can&rsquo;t use a single-target toon-up gag to stun for
+    a single-target gag.
 
 ### What can I stun with?
 
