@@ -14,17 +14,17 @@ that can be carefully utilized to optimise for successful cog battles.
 
 - If you like it when your gags don&rsquo;t miss, then you should stun for
   them. Typically:
-  - 1 or 2 stuns tends to do it for lure, depending on what lure gag
-    you&rsquo;re using, and on whether or not the cog is above roughly level
-    &ap;12.
-  - 2 stuns tends to do it for drop (again, except for very high level cogs),
-    although in certain cases you may have to settle for less.
+    - 1 or 2 stuns tends to do it for lure, depending on what lure gag
+      you&rsquo;re using, and on whether or not the cog is above roughly level
+      &ap;12.
+    - 2 stuns tends to do it for drop (again, except for very high level cogs),
+      although in certain cases you may have to settle for less.
 - Paying attention to accuracy concerns has very desirable
   [statistical](https://en.wikipedia.org/wiki/Statistics) properties that will
   make your cog battles considerably more successful on average.
-  - Always remember, however, that the chance of a given gag hitting is capped
-    at a maximum of 95%, unless the gag is already guaranteed to hit for some
-    reason. No amount of stunning will get you to 100%.
+    - Always remember, however, that the chance of a given gag hitting is
+      capped at a maximum of 95%, unless the gag is already guaranteed to hit
+      for some reason. No amount of stunning will get you to 100%.
 - You can stun for lure with toon-up and/or trap.
 - You can stun for drop with almost anything.
 - Toon-up doesn&rsquo;t actually have to do any healing to act as a stun; it
@@ -67,8 +67,8 @@ must satisfy **all** of the following&hellip;:
   actions must have the same target. Note that the target of a single-target
   toon-up gag is a toon, not a cog.
 - The stunning action must not miss.
-  - This applies to toon-up gags as well, despite the fact that toon-up gags
-    still have an effect (albeit a greatly reduced one) when they miss.
+    - This applies to toon-up gags as well, despite the fact that toon-up gags
+      still have an effect (albeit a greatly reduced one) when they miss.
 
 </details>
 
@@ -79,8 +79,8 @@ must satisfy **all** of the following&hellip;:
 - Gags that miss don&rsquo;t provide any stun. This applies to toon-up gags.
 - If you stun with a single-target gag, then it has to target the same cog as
   the thing that you&rsquo;re stunning for.
-  - This means that you can&rsquo;t use a single-target toon-up gag to stun for
-    a single-target gag.
+    - This means that you can&rsquo;t use a single-target toon-up gag to stun
+      for a single-target gag.
 
 ### What can I stun with?
 
@@ -165,10 +165,10 @@ following pair of observations:
 - When, in a given round of battle, a chosen strategy more or less fails due to
   random chance (i\.e. most or all of the crucial gags miss, e\.g. a lure
   miss), that is a massive loss of _all_ of the following:
-  - Tempi; at worst, you lose an entire tempo, and at best you
-    &ldquo;only&rdquo; lose the majority of it.
-  - Gags (and possibly other disposable resources as well).
-  - Laff.
+    - Tempi; at worst, you lose an entire tempo, and at best you
+      &ldquo;only&rdquo; lose the majority of it.
+    - Gags (and possibly other disposable resources as well).
+    - Laff.
 - When a gag has an uncomfortably low hit-chance (which may just mean that it
   has a hit-chance below 95%, or the threshold may be looser), it is highly
   likely &mdash; even in general &mdash; that you can do something to fix it.
@@ -302,9 +302,9 @@ will let you have your way. Frequently, you need all (or almost all) of the
 gags that can _possibly_ miss, to hit, in order for your strategy to actually
 play out as intended.
 
-This brings us to our good friend, the
-[binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution).
-Of course the binomial distribution is only illustrative here &mdash; a decent
+This brings us to our good friend, the [binomial
+distribution](https://en.wikipedia.org/wiki/Binomial_distribution). Of course
+the binomial distribution is only illustrative here &mdash; a decent
 approximation at best &mdash; because the various gags may have various
 different hit-chances, whereas there is only one value of &#x1d45d; in a given
 binomial distribution. Nevertheless, it&rsquo;s illustrative to note that in
@@ -335,10 +335,9 @@ Oops! That&rsquo;s not a difference of five percentage points, that&rsquo;s
 more like a difference of _nine or ten_!
 
 And in the _inter_-temporal case, I want to invoke not the binomial
-distribution, but rather, the notion of
-[relative risk (RR)](https://en.wikipedia.org/wiki/Relative_risk). In the
-&ldquo;What is &lsquo;stun hygiene&rsquo;?&rdquo; section above, I
-note&hellip;:
+distribution, but rather, the notion of [relative risk
+(RR)](https://en.wikipedia.org/wiki/Relative_risk). In the &ldquo;What is
+&lsquo;stun hygiene&rsquo;?&rdquo; section above, I note&hellip;:
 
 > When, in a given round of battle, a chosen strategy more or less fails due to
 > random chance \[&hellip;\], that is a massive loss of _all_ of the following:
@@ -364,10 +363,12 @@ headlines.
 
 ## Where are you getting all of this from?
 
-- [<i>Toontown Resources</i>](https://github.com/QED1224/Toontown-Resources/blob/4ddfbd1f4e2e17858ee22b512533f3187c310cd7/README.md)
+- [<i>Toontown
+  Resources</i>](https://github.com/QED1224/Toontown-Resources/blob/4ddfbd1f4e2e17858ee22b512533f3187c310cd7/README.md)
   ([archived](https://web.archive.org/web/20221115112356/https://github.com/QED1224/Toontown-Resources/blob/4ddfbd1f4e2e17858ee22b512533f3187c310cd7/README.md)),
   which accurately explains TTO mechanics.
-- [<i>The Accuracy Problem</i>](https://old.reddit.com/r/toontownrewritten/comments/rol1j7/the_accuracy_problem/)
+- [<i>The Accuracy
+  Problem</i>](https://old.reddit.com/r/toontownrewritten/comments/rol1j7/the_accuracy_problem/)
   ([archived](https://web.archive.org/web/20221115112257/https://old.reddit.com/r/toontownrewritten/comments/rol1j7/the_accuracy_problem/)),
   which confirms that the relevant TTO mechanics persist into post-v3\.0\.0
   TTR.
@@ -400,6 +401,4 @@ headlines.
 
 </details>
 
-[set]: https://en.wikipedia.org/wiki/Set_(mathematics)
-[intsc]: https://en.wikipedia.org/wiki/Intersection_(set_theory)
 [tempo]: https://en.wikipedia.org/wiki/Tempo_(chess)
