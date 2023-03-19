@@ -341,7 +341,7 @@ distribution, but rather, the notion of [relative risk
 
 > When, in a given round of battle, a chosen strategy more or less fails due to
 > random chance \[&hellip;\], that is a massive loss of _all_ of the following:
-> \[&hellip;\]
+> &#x5b;&hellip;\]
 
 &hellip;With the conclusion that we must minimize, to the extent practically
 possible, the occurrence of such massive losses. With this framing, RR is
