@@ -1,3 +1,9 @@
+---
+
+**NOTE:** As of TTR v4\.0\.0 (2024-05-25), TTO stunning mechanics have been removed &amp; replaced by something tangentially-related but ultimately fundamentally different. Therefore, this guide no longer applies, **but** remains here for anyone playing TTO-like Toontown implementations (just ignore the level &gt;12 cog stuff), as well as for archival purposes, of course.
+
+---
+
 # PSA: Stun hygiene, or, &ldquo;why does lure keep missing in my FO?&rdquo;
 
 Sometimes gags hit, and sometimes they do not. Most Toontown players already
